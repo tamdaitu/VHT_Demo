@@ -1,0 +1,1129 @@
+{
+  "CNCLine": [
+    {
+      "cncInfo": {
+        "SystemInfo": {
+          "addinfo": 1570,
+          "axes": "b'03'",
+          "cnctype": "b' 0'",
+          "maxaxis": 32,
+          "mttype": "b' M'",
+          "series": "b'D4G3'",
+          "version": "b'29.0'"
+        },
+        "ipaddress": "192.168.102.121",
+        "listprog": "{11: {'size': 1000, 'comment': '(DJG2203-12.01-06  FRONT FRAME OP1020 )'}, 147: {'size': 500, 'comment': '(TEST NUT AUTO PLC)'}, 610: {'size': 19000, 'comment': '(DJG2203-12.01-06  FRONT FRAME OP1020 )'}, 8001: {'size': 500, 'comment': '(ENDING CODE)'}, 8008: {'size': 500, 'comment': '(*LTS Z CALIBRATION*)'}, 8009: {'size': 500, 'comment': '(HI FUNCTION CANCLE)'}, 8100: {'size': 500, 'comment': '(STARTING CODE)'}, 8101: {'size': 500, 'comment': '(STARTING CODE)'}, 8102: {'size': 500, 'comment': '(STARTING CODE TIME CHECK)'}, 8400: {'size': 500, 'comment': '()'}, 8412: {'size': 500, 'comment': '()'}, 8502: {'size': 500, 'comment': '(CHIP TO CHIP TIME)'}, 8503: {'size': 500, 'comment': '(TOOL TO TOOL TIME)'}, 8504: {'size': 500, 'comment': '()'}, 9020: {'size': 1000, 'comment': '(M06 T..AUTO CHANGE)'}, 9021: {'size': 1000, 'comment': '(M16 T..AUTO CHANGE)'}, 9025: {'size': 500, 'comment': '(*LTS AUTO TOOL SETTING*)'}, 9026: {'size': 500, 'comment': '(*BROKEN TOOL CHECK*)'}, 9027: {'size': 500, 'comment': '(*LTS MANUAL TOOL SETTING*)'}, 9040: {'size': 500, 'comment': '()'}, 9741: {'size': 500, 'comment': '(OMP60 START)'}, 9742: {'size': 500, 'comment': '(OMP60 END)'}, 9743: {'size': 500, 'comment': '(TS27R START)'}, 9744: {'size': 500, 'comment': '(TS27R END)'}, 9921: {'size': 4000, 'comment': '()'}, 9999: {'size': 500, 'comment': '()'}}",
+        "name": "CNC N#1",
+        "statusInfo": {
+          "alarm": 0,
+          "aut": 5,
+          "edit": 0,
+          "emegency": 0,
+          "motion": 0,
+          "mstb": 0,
+          "run": 0
+        }
+      },
+      "cncProgram": {
+        "partcount": {
+          "3901": 59
+        },
+        "readexecprog": {
+          "block": 0,
+          "text": "O0610(DJG2203-12.01-06  FRONT FRAME OP1020 )\nN10G0G40G49\nN20G80G90G94G98\nN30G54\n\n(TWISTED DRILL D4 L35 SD4)\nN40T3M6\nN50T4\nN60S4775M3\nN70G90\n(DRILLING)\nN80G0G17X330.687Y-81.533\nN90G43Z103.H3\nN100M8\nN110G81G98Z91.845R100.F477\nN120X224.437Y-82.2\nN130X219.937"
+        },
+        "readprogname": "//CNC_MEM/USER/LIBRARY/O610",
+        "readprognum": {
+          "main": 610,
+          "run": 610
+        },
+        "target": {
+          "3902": 0
+        }
+      },
+      "id": 1,
+      "isconnected": true,
+      "readactfeed": 0,
+      "readactspindlespeed": 0
+    },
+    {
+      "AxesPossition": {
+        "ABS": [
+          435.438,
+          -120.849,
+          -49.971,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          360,
+          0,
+          0,
+          3362124.8,
+          50332928,
+          50334208,
+          16777984,
+          285.212672,
+          -1786041298,
+          256,
+          16777472,
+          33554432,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "REL": [
+          -331.609,
+          -292.875,
+          0.029,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1744896000,
+          0,
+          0,
+          327938,
+          327683,
+          655363,
+          196609,
+          17,
+          774671253,
+          65536,
+          65537,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "REF": [
+          -331.609,
+          -292.875,
+          0.029,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          360,
+          0,
+          0,
+          33621248,
+          50332928,
+          50334208,
+          16777984,
+          285212672,
+          -1786041298,
+          256,
+          16777472,
+          33554432,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "SKIP": [
+          -232.953,
+          172.026,
+          -50,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1744896000,
+          0,
+          0,
+          327938,
+          327683,
+          655363,
+          196609,
+          17,
+          774671253,
+          65536,
+          65537,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "DIST": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          360,
+          0,
+          0,
+          33621248,
+          50332928,
+          50334208,
+          16777984,
+          285212672,
+          -1786041298,
+          256,
+          16777472,
+          33554432,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "cncInfo": {
+        "SystemInfo": "{'addinfo': 1570, 'maxaxis': 32, 'cnctype': b' 0', 'mttype': b' M', 'series': b'D4G3', 'version': b'29.0', 'axes': b'03'}",
+        "ipaddress": "192.168.102.122",
+        "listprog": "{4: {'size': 500, 'comment': '()'}, 5: {'size': 500, 'comment': '()'}, 6: {'size': 500, 'comment': '()'}, 88: {'size': 500, 'comment': '()'}, 147: {'size': 500, 'comment': '(TEST NUT AUTO PLC)'}, 203: {'size': 1000, 'comment': '(VETA-1000)'}, 204: {'size': 500, 'comment': '(Z-AXIS TEST)'}, 213: {'size': 11500, 'comment': '(DJG2203-12.01-06  FRONT FRAME OP30 )'}, 220: {'size': 11500, 'comment': '(DJG2203-12.01-06  FRONT FRAME OP30 )'}, 1213: {'size': 500, 'comment': '()'}}",
+        "name": "TEST CNC",
+        "statusInfo": "{'aut': 1, 'run': 0, 'motion': 0, 'mstb': 0, 'emegency': 1, 'alarm': 1, 'edit': 0}"
+      },
+      "cncProgram": {
+        "partcount": 43,
+        "readexecprog": "chuongtrinhcode",
+        "readprogname": "//CNC_MEM/USER/PATH1/O147",
+        "readprognum": "{'run': 0, 'main': 147}",
+        "target": 100
+      },
+      "id": 10,
+      "isconnected": true,
+      "readactfeed": 2.1,
+      "readactspindlespeed": 100.4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "AMASMART TNHH",
+    "comment":"day la du an demo"
+  },
+  "Line8Data": {
+    "PLC_LogHotShear": {
+      "PLC_isConnected": true,
+      "PLC_infor": {
+        "name": "Log hot shear",
+        "ip": "192.168.0.10",
+        "port": 8000,
+        "StationInfo": [ "OP20", "OP30", "OP40" ]
+      },
+      "Data": {
+        "BLower": {
+          "Value": true,
+          "Comment": "khí thổi vào máy"
+        },
+        "BLower_LowPressure": {
+          "Value": true,
+          "Comment": "cảm biến áp suất khí Thấp"
+        },
+        "ExhaustFan": {
+          "Value": true,
+          "Comment": "Quạt hút khí thải"
+        },
+        "ExhaustFan_Temp": {
+          "Value": 37,
+          "Comment": "độ C"
+        },
+        "FurnaceInside": {
+          "Value": 70,
+          "Comment": "độ C"
+        },
+        "Billet_Length": {
+          "Billet_Length_Setting": {
+            "Value": 600,
+            "Comment": "mm, kích thước cài đặt cắt của billet hiện tại"
+          },
+          "Billet_Length_Value": {
+            "Value": 512,
+            "Comment": "mm, kích thước thực tế của billet hiện tại"
+          }
+        },
+        "Billet_Length_Setting_Mode": {
+          "Mode1": {
+            "Value": 100,
+            "Comment": "mm, kích thước cắt ưu tiên 1"
+          },
+          "Mode2": {
+            "Value": 200,
+            "Comment": "mm, kích thước cắt ưu tiên 2"
+          },
+          "Mode3": {
+            "Value": 300,
+            "Comment": "mm, kích thước cắt ưu tiên 3"
+          },
+          "Mode4": {
+            "Value": 400,
+            "Comment": "mm, kích thước cắt ưu tiên 4"
+          },
+          "Mode5": {
+            "Value": 500,
+            "Comment": "mm, kích thước cắt ưu tiên 5"
+          },
+          "Mode6": {
+            "Value": 600,
+            "Comment": "mm, kích thước cắt ưu tiên 6"
+          },
+          "Mode7": {
+            "Value": 700,
+            "Comment": "mm, kích thước cắt ưu tiên 7"
+          },
+          "Mode8": {
+            "Value": 800,
+            "Comment": "mm, kích thước cắt ưu tiên 8"
+          },
+          "ModeSelect": {
+            "Value": 3,
+            "Comment": "số lượng, chạy vòng tròn từ Mode1-2-3-1-2-3...."
+          }
+        },
+        "Quantity": {
+          "Target": {
+            "Value": 800,
+            "Comment": "pcs, số lượng target cắt thành phẩm"
+          },
+          "Now": {
+            "Value": 70,
+            "Comment": "pcs, số lượng cắt thành phẩm thực tế"
+          },
+          "Day_Total": {
+            "Weight": {
+              "Value": 30,
+              "Comment": "Tấn, đã cắt theo ngày"
+            },
+            "Length": {
+              "Value": 340,
+              "Comment": "m, đã cắt theo ngày"
+            },
+            "Quantity": {
+              "Value": 60,
+              "Comment": "EA, đã cắt theo ngày"
+            }
+          },
+          "Total_Accum": {
+            "Weight": {
+              "Value": 30,
+              "Comment": "Tấn, tổng đã cắt"
+            },
+            "Length": {
+              "Value": 340,
+              "Comment": "m, tổng đã cắt"
+            },
+            "Quantity": {
+              "Value": 60,
+              "Comment": "EA, tổng đã cắt"
+            }
+          }
+        },
+        "Fusher_Position": {
+          "Value": 300,
+          "Comment": "mm, vị trí thực tế của cụm dịch chuyển Billet Logloading"
+        },
+        "NoCutFeed": {
+          "Value": true,
+          "Comment": "False-Đủ điều kiện cắt"
+        },
+        "LogHeatter": {
+          "FS": {
+            "Value": true,
+            "Comment": " "
+          },
+          "Double_Cut_Enable": {
+            "Value": true,
+            "Comment": "cắt 2 lần"
+          },
+          "Gas_Pressure": {
+            "Value": true,
+            "Comment": "Cảm biến áp suất khí Gas đầu vào"
+          },
+          "Zone1": {
+            "Temperature": {
+              "PV": {
+                "Value": true,
+                "Comment": "C,Nhiệt độ cài đặt"
+              },
+              "SV": {
+                "Value": true,
+                "Comment": "C,Nhiệt độ thực tế"
+              }
+            },
+            "ValveSmall_Open": {
+              "Value": true,
+              "Comment": "Open val đường khí áp nhỏ"
+            },
+            "ValveLagger_Open": {
+              "Value": true,
+              "Comment": "Open val đường khí áp lớn"
+            }
+          },
+          "Zone2": {
+            "Temperature": {
+              "PV": {
+                "Value": true,
+                "Comment": "C,Nhiệt độ cài đặt"
+              },
+              "SV": {
+                "Value": true,
+                "Comment": "C,Nhiệt độ thực tế"
+              }
+            },
+            "ValveSmall_Open": {
+              "Value": true,
+              "Comment": "Open val đường khí áp nhỏ"
+            },
+            "ValveLagger_Open": {
+              "Value": true,
+              "Comment": "Open val đường khí áp lớn"
+            }
+          },
+          "Zone3": {
+            "Temperature": {
+              "PV": {
+                "Value": true,
+                "Comment": "C,Nhiệt độ cài đặt"
+              },
+              "SV": {
+                "Value": true,
+                "Comment": "C,Nhiệt độ thực tế"
+              }
+            },
+            "ValveSmall_Open": {
+              "Value": true,
+              "Comment": "Open val đường khí áp nhỏ"
+            },
+            "ValveLagger_Open": {
+              "Value": true,
+              "Comment": "Open val đường khí áp lớn"
+            }
+          },
+          "Zone4": {
+            "Temperature": {
+              "PV": {
+                "Value": true,
+                "Comment": "C,Nhiệt độ cài đặt"
+              },
+              "SV": {
+                "Value": true,
+                "Comment": "C,Nhiệt độ thực tế"
+              }
+            },
+            "ValveSmall_Open": {
+              "Value": true,
+              "Comment": "Open val đường khí áp nhỏ"
+            },
+            "ValveLagger_Open": {
+              "Value": true,
+              "Comment": "Open val đường khí áp lớn"
+            }
+          }
+        },
+        "Station_Status": {
+          "Status": {
+            "Billet_mode_1pcs": {
+              "Value": false,
+              "Comment": "1 bill mode (1psc)"
+            },
+            "Billet_mode_2pcs": {
+              "Value": false,
+              "Comment": "2 bill mode (2psc)"
+            },
+            "Billet_mode_Half": {
+              "Value": false,
+              "Comment": "Half billet mode"
+            },
+            "Status": {
+              "Value": false,
+              "Comment": "(PLC.B.B09A == 0) && (PLC.B.B09B == 0) && (PLC.B.B09C == 0) : Standby"
+            }
+          },
+          "Alarm": {
+            "List": {
+              "B000": "Hyd PumpMotorOverLoad",
+              "B001": "BlowerFan1OverLoad",
+              "B002": "BlowerFan2OverLoad",
+              "B003": "ExhaustFanOverLoad",
+              "B004": "CarrierMotorOverLoad",
+              "B005": "BrushMotorOverLoad",
+              "B006": "DustCollectorMotorOverLoad",
+              "B007": "LogDeckMotorOverLoad",
+              "B008": "SawInverterAlarm",
+              "B009": "ChipCollectorOverload",
+              "B00A": "Wait……SKM",
+              "B00B": "NoErrorCode(Reserved)",
+              "B00C": "NoErrorCode(Reserved)",
+              "B00D": "NoErrorCode(Reserved)",
+              "B00E": "PusherInverterAlarm",
+              "B00F": "ExhaustFanModutrolOverLoad",
+              "B010": "Z1ThermocoupleActionError",
+              "B011": "Z2ThermocoupleActionError",
+              "B012": "Z3ThermocoupleActionError",
+              "B013": "Z4ThermocoupleActionError",
+              "B014": "Z5ThermocoupleActingError",
+              "B015": "Z6ThermocoupleActingError",
+              "B016": "WarningZ6OverTemp",
+              "B017": "Z6AccidentalMisfire",
+              "B018": "Z6ModutrolMotorActionTrouble",
+              "B019": "Z6ThermocoupleBreakingWire",
+              "B01A": "Z1ThermocoupleBreakingWire",
+              "B01B": "Z2ThermocoupleBreakingWire",
+              "B01C": "Z3ThermocoupleBreakingWire",
+              "B01D": "Z4ThermocoupleBreakingWire",
+              "B01E": "Z5ThermocoupleBreakingWire",
+              "B01F": "WarningZ1OverTemp",
+              "B020": "WarningZ2OverTemp",
+              "B021": "WarningZ3OverTemp",
+              "B022": "WarningZ4OverTemp",
+              "B023": "WarningZ5OverTemp",
+              "B024": "Z1AccidentalMisfire",
+              "B025": "Z2AccidentalMisfire",
+              "B026": "Z3AccidentalMisfire",
+              "B027": "Z4AccidentalMisfire",
+              "B028": "Z5AccidentalMisfire",
+              "B029": "Z1ModutrolMotorActionTrouble",
+              "B02A": "Z2ModutrolMotorActionTrouble",
+              "B02B": "Z3ModutrolMotorActionTrouble",
+              "B02C": "Z4ModutrolMotorActionTrouble",
+              "B02D": "Z5ModutrolMotorActionTrouble",
+              "B02E": "ExhaustModutrolMotorActionTrouble",
+              "B02F": "BilletOutDoorActionTrouble",
+              "B030": "BilletOutDoorPositionError",
+              "B031": "WarningCutterActionTrouble",
+              "B032": "WarningCutterPositionError",
+              "B033": "StopperActionTrouble",
+              "B034": "StopperPositionError",
+              "B035": "WarningReturnLimit/SensorError",
+              "B036": "WarningReturnActionTrouble",
+              "B037": "WarningReturnPositionError",
+              "B038": "EjectorActionTrouble",
+              "B039": "EjectorPositionError",
+              "B03A": "ParkingPositionError",
+              "B03B": "ParkingActionTrouble",
+              "B03C": "TiltingActionTrouble",
+              "B03D": "TiltingPositionError",
+              "B03E": "ClampActionTrouble",
+              "B03F": "TurnTableActionTrouble",
+              "B040": "CareerTiltingActionTrouble",
+              "B041": "Billetlengthlessthan1000mm",
+              "B042": "ChipPressDamperActionTrouble",
+              "B043": "ChipPressDoorActionError",
+              "B044": "ChipPressMainCylinderActionTrouble",
+              "B045": "StopperInletBilletSeningError",
+              "B046": "FeederDownNoSignalError",
+              "B047": "EmergencyFireExtinguishing",
+              "B048": "WorkFinishedCloseCoolingStart",
+              "B049": "ExhaustGasOverTemp",
+              "B04A": "FurnaceTemp#1Hi-Temp",
+              "B04B": "FurnaceTemp#2Hi-Temp",
+              "B04C": "BelletOutCycleTimeOver",
+              "B04D": "CuttinglengthsettingError",
+              "B04E": "PLCHSCModuleError",
+              "B04F": "OperationPreparatorycance",
+              "B050": "EmergencyStop",
+              "B051": "TemporaryStop",
+              "B052": "WarningTempOverEmergencyCoolingStart",
+              "B053": "OilLevellow",
+              "B054": "BilletForwardMovingActionError",
+              "B055": "BilletOverForwardRestrictionMovingLimit",
+              "B056": "WaitLogInterferencDetection",
+              "B057": "LogDeckBilletdonotexist",
+              "B058": "HalfCuttingParkingError",
+              "B059": "PusherForwardSensingWarning",
+              "B05A": "WarningTwoPieceLogComesOut",
+              "B05B": "GasPressureLow",
+              "B05C": "GasPressureHigh",
+              "B05D": "BlowerFanpressureLow",
+              "B05E": "CompulsionCoolingStart",
+              "B05F": "NoErrorCode(Reserved)",
+              "B060": "UnableBilletOutput,StopperNoBackward",
+              "B061": "UnableBilletOutput,DoorWasNotClose",
+              "B062": "UnableBilletOutput,ShearWasNotBackward",
+              "B063": "UnableBilletOutput,ReturnWasNotBackward",
+              "B064": "UnableBilletOutput,EjectorWasNotBackward",
+              "B065": "UnableBilletOutput,TiltingWasNotUplod",
+              "B066": "UnableBilletOutput,ParckingWasNotUplod",
+              "B067": "UnableBilletOutput,HydroMototWasNotRUN",
+              "B068": "AutoModeoffwhenmemorybillet",
+              "B069": "AutoModeoffwhenNomemorybillet",
+              "B06A": "UbableBilletOutput(Reserved)",
+              "B06B": "UnableBilletOutput,CuttingClampNotUnclamled",
+              "B06C": "UbableBilletOutput(Reserved)",
+              "B06D": "UbableBilletOutput(Reserved)",
+              "B06E": "UbableBilletOutput(Reserved)",
+              "B06F": "UbableBilletOutput(Reserved)",
+              "B070": "BilletCallingDelay,BilletLowTemp",
+              "B071": "BilletCallingDelay,CuttingQuantityOver",
+              "B072": "BilletCallingDelay,CuttingLengthSensr\"On\"",
+              "B073": "BilletCallingDelay,BilletInputDemand",
+              "B074": "BilletCallingDelay,BilletMeasuringTemp",
+              "B075": "BilletCallingDelay,BilletStopperInputRuning",
+              "B076": "BilletCallingDelay(Reserved)",
+              "B077": "BilletCallFail,ChipPressNotinAutomode",
+              "B078": "BilletCallFail,ChipPressOff",
+              "B079": "BilletCallingDelay(Reserved)",
+              "B07A": "BilletCallingDelay(Reserved)",
+              "B07B": "BilletCallingDelay(Reserved)",
+              "B07C": "BilletCallingDelay(Reserved)",
+              "B07D": "BilletCallingDelay(Reserved)",
+              "B07E": "BilletCallingDelay(Reserved)",
+              "B07F": "BilletCallingDelay(Reserved)"
+            }
+          }
+        }
+      }
+    },
+    "PLC_AGING": {
+      "PLC_isConnected": true,
+      "PLC_infor": {
+        "name": "AGING",
+        "ip": "192.168.0.10",
+        "port": 8000,
+        "StationInfo": [ "OP20", "OP30", "OP40" ]
+      },
+      "Data": {
+        "SETUP": {
+          "RC_FAN_OFF_DELAY": {
+            "Value": 10,
+            "Comment": "sec, thời gian delay tắt FAN"
+          },
+          "BLOWER_OFF_DELAY": {
+            "Value": 2,
+            "Comment": "sec, thời gian delay tắt BLOWER"
+          },
+          "PURGE_BLOW_TIME": {
+            "Value": 3,
+            "Comment": "sec, thời gian thổi"
+          },
+          "RE_IGNITION_TIME": {
+            "Value": 4,
+            "Comment": "sec, thời gian RE_IGNITION_TIME"
+          }
+        },
+        "IODUTROL_MOTOR_TES": {
+          "MANUAL_OPEN": {
+            "Value": true,
+            "Comment": "True - đang mở"
+          },
+          "PALLET_TRANSFER": {
+            "Value": true,
+            "Comment": "sec, PILLET TRANSFER AFTER HEAT TREATMENT"
+          },
+          "Door_Auto_Open_Delay": {
+            "Value": 12.3,
+            "Comment": "sec, thời gian delay "
+          },
+          "PALLET_TRANSFER_TIME": {
+            "Value": 20,
+            "Comment": "sec, thời gian chuyển PALLET"
+          },
+          "OUT_SENSOR_DT": {
+            "Value": 30,
+            "Comment": "sec, "
+          },
+          "BZ_STOP_Delay": {
+            "Value": 2,
+            "Comment": "sec, thời gian delay khi Cảnh báo"
+          }
+        },
+        "MAIN_TEMP_CONTROL": {
+          "PV": {
+            "Value": 200,
+            "Comment": "C, nhiệt độ thực tế"
+          },
+          "SV": {
+            "Value": 300,
+            "Comment": "C, nhiệt độ đặt"
+          },
+          "OUT": {
+            "Value": 20,
+            "Comment": "%, "
+          }
+        },
+        "OVER_TEMP_CONTROL": {
+          "PV": {
+            "Value": 200,
+            "Comment": "C, nhiệt độ thực tế"
+          },
+          "SV": {
+            "Value": 300,
+            "Comment": "C, nhiệt độ đặt"
+          },
+          "ALH": {
+            "Value": true,
+            "Comment": ""
+          }
+        },
+        "MODEL_AGING": {
+          "PROGRAM_LIST": {
+            "Model1": {
+              "Name": {
+                "Value": "ABC",
+                "Comment": "string,tên chương trình"
+              },
+              "Step1": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step2": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step3": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step4": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step5": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              }
+            },
+            "Model2": {
+              "Name": {
+                "Value": "ABC",
+                "Comment": "string,tên chương trình"
+              },
+              "Step1": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step2": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step3": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step4": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step5": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              }
+            },
+            "Model3": {
+              "Name": {
+                "Value": "ABC",
+                "Comment": "string,tên chương trình"
+              },
+              "Step1": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step2": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step3": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step4": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step5": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              }
+            },
+            "Model4": {
+              "Name": {
+                "Value": "ABC",
+                "Comment": "string,tên chương trình"
+              },
+              "Step1": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step2": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step3": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step4": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step5": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              }
+            },
+            "Model5": {
+              "Name": {
+                "Value": "ABC",
+                "Comment": "string,tên chương trình"
+              },
+              "Step1": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step2": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step3": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step4": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              },
+              "Step5": {
+                "Tempset": {
+                  "Value": 200,
+                  "Comment": "C, nhiệt độ đặt"
+                },
+                "time_run": {
+                  "Value": 1.5,
+                  "Comment": "giờ, thời gian chạy của step"
+                }
+              }
+            }
+          },
+          "Load_Program_RUN": {
+            "Value": 1,
+            "Comment": "chọn chương trình chạy số 1"
+          },
+          "Door_Close_Step": {
+            "Value": 1,
+            "Comment": "chọn Step bắt đầu đóng cửa của chương trình"
+          },
+          "PROGRAM_RUN": {
+            "Model_Running": {
+              "Value": 1,
+              "Comment": "Number model đang chạy"
+            },
+            "Step1": {
+              "Tempset": {
+                "Value": 200,
+                "Comment": "C, nhiệt độ đặt"
+              },
+              "time_run": {
+                "Value": 1.5,
+                "Comment": "giờ, thời gian chạy của step"
+              }
+            },
+            "Step2": {
+              "Tempset": {
+                "Value": 200,
+                "Comment": "C, nhiệt độ đặt"
+              },
+              "time_run": {
+                "Value": 1.5,
+                "Comment": "giờ, thời gian chạy của step"
+              }
+            },
+            "Step3": {
+              "Tempset": {
+                "Value": 200,
+                "Comment": "C, nhiệt độ đặt"
+              },
+              "time_run": {
+                "Value": 1.5,
+                "Comment": "giờ, thời gian chạy của step"
+              }
+            },
+            "Step4": {
+              "Tempset": {
+                "Value": 200,
+                "Comment": "C, nhiệt độ đặt"
+              },
+              "time_run": {
+                "Value": 1.5,
+                "Comment": "giờ, thời gian chạy của step"
+              }
+            },
+            "Step5": {
+              "Tempset": {
+                "Value": 200,
+                "Comment": "C, nhiệt độ đặt"
+              },
+              "time_run": {
+                "Value": 1.5,
+                "Comment": "giờ, thời gian chạy của step"
+              }
+            },
+            "Total_time": {
+              "Value": 1000,
+              "Comment": "bước nhiệt đang hoạt động"
+            }
+          },
+          "TEMP_GRAPH": {
+            "DATA1": {
+              "Value": 10,
+              "Comment": "C, nhiệt độ 1"
+            },
+            "DATA2": {
+              "Value": 10,
+              "Comment": "C, nhiệt độ 2"
+            },
+            "DATA3": {
+              "Value": 10,
+              "Comment": "C, nhiệt độ 3"
+            },
+            "DATA4": {
+              "Value": 10,
+              "Comment": "C, nhiệt độ 4"
+            },
+            "DATA5": {
+              "Value": 10,
+              "Comment": "C, nhiệt độ 5"
+            }
+          }
+        },
+        "STATUS": {
+          "RC_FAN1": {
+            "Value": true,
+            "Comment": "quạt 1"
+          },
+          "RC_FAN2": {
+            "Value": true,
+            "Comment": "quạt 2"
+          },
+          "BLOWER": {
+            "Value": true,
+            "Comment": "thổi"
+          },
+          "PURGING": {
+            "Value": true,
+            "Comment": "Y46: vàng, Y47: Xanh, ALLOFF: false"
+          },
+          "BURNER": {
+            "Value": true,
+            "Comment": "Y65: vàng, Y68: đỏ, ALLOFF: false , đốt"
+          },
+          "ALARM": {
+            "Value": true,
+            "Comment": "alarm"
+          },
+          "MAIN_GAS_VALVE": {
+            "Value": true,
+            "Comment": "van gas"
+          },
+          "PILOT_VALVE": {
+            "Value": true,
+            "Comment": "PILLot VAL - đốt"
+          },
+          "HIGH_GAS": {
+            "Value": true,
+            "Comment": ""
+          },
+          "LOW_GAS": {
+            "Value": true,
+            "Comment": ""
+          },
+          "LOW_AIR": {
+            "Value": true,
+            "Comment": ""
+          }
+        }
+      }
+    }
+  }
+}
