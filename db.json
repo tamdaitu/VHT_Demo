@@ -1,6 +1,178 @@
 {
   "CNCLine": [
     {
+      "AxesPossition": {
+        "ABS": [
+          -173.509,
+          -80.842,
+          0.033,
+          7.58133805e-41,
+          8.58796337e-42,
+          8.27197993e-40,
+          8.77080628e-49,
+          8.08994608e-49,
+          0.1194932532,
+          33554432,
+          1.380012072e-75,
+          8.60102656e-46,
+          1.146298421e-42,
+          1.412445262e-41,
+          1.412445518e-43,
+          9.2597944e-46,
+          8.08930826e-49,
+          1.380526148e-67,
+          50331648,
+          1.380012072e-75,
+          1.194342656e-43,
+          1.210987063e-41,
+          0.0944582704,
+          8.25771824e-63,
+          7.75237938e-74,
+          0.092597611,
+          1.479684656e-39,
+          1862270976,
+          8.05316904e-63,
+          1.70799671e-70,
+          8.08596568e-38,
+          8.44771382e-42
+        ],
+        "DIST": [
+          0,
+          0,
+          0,
+          758133805,
+          858796337,
+          827197993,
+          877080628,
+          808994608,
+          1194932532,
+          33554432,
+          1380012072,
+          860102656,
+          1146298421,
+          1412445262,
+          1412445518,
+          925979440,
+          808930826,
+          1380526148,
+          50331648,
+          1380012072,
+          1194342656,
+          1210987063,
+          944582704,
+          825771824,
+          775237938,
+          925976110,
+          1479684656,
+          1862270976,
+          805316904,
+          170799671,
+          808596568,
+          844771382
+        ],
+        "REF": [
+          -659.999,
+          -195.997,
+          0.033,
+          758133805,
+          858796337,
+          827197993,
+          877080628,
+          808994608,
+          1194932532,
+          33554432,
+          1380012072,
+          860102656,
+          1146298421,
+          1412445262,
+          1412445518,
+          925979440,
+          808930826,
+          1380526148,
+          50331648,
+          1380012072,
+          1194342656,
+          1210987063,
+          944582704,
+          825771824,
+          775237938,
+          925976110,
+          1479684656,
+          1862270976,
+          805316904,
+          170799671,
+          808596568,
+          844771382
+        ],
+        "REL": [
+          -659.999,
+          -195.997,
+          165.073,
+          758394925,
+          825307187,
+          688541233,
+          875579188,
+          809973808,
+          876165447,
+          2,
+          676348242,
+          2114611,
+          891310916,
+          1312043092,
+          1312108628,
+          810758455,
+          172898096,
+          1143490898,
+          3,
+          676348242,
+          3747911,
+          926035528,
+          808471864,
+          809973809,
+          842085678,
+          776352055,
+          808596056,
+          111,
+          673775664,
+          926035466,
+          1479815728,
+          909138482
+        ],
+        "SKIP": [
+          -173.51,
+          -80.845,
+          0,
+          758394925,
+          825307187,
+          688541233,
+          875579188,
+          809973808,
+          876165447,
+          2,
+          676348242,
+          2114611,
+          891310916,
+          1312043092,
+          1312108628,
+          810758455,
+          172898096,
+          1143490898,
+          3,
+          676348242,
+          3747911,
+          926035528,
+          808471864,
+          809973809,
+          842085678,
+          776352055,
+          808596056,
+          111,
+          673775664,
+          926035466,
+          1479815728,
+          909138482
+        ]
+      },
       "cncInfo": {
         "SystemInfo": {
           "addinfo": 1570,
@@ -11,9 +183,9 @@
           "series": "b'D4G3'",
           "version": "b'29.0'"
         },
-        "ipaddress": "192.168.102.121",
-        "listprog": "{11: {'size': 1000, 'comment': '(DJG2203-12.01-06  FRONT FRAME OP1020 )'}, 147: {'size': 500, 'comment': '(TEST NUT AUTO PLC)'}, 610: {'size': 19000, 'comment': '(DJG2203-12.01-06  FRONT FRAME OP1020 )'}, 8001: {'size': 500, 'comment': '(ENDING CODE)'}, 8008: {'size': 500, 'comment': '(*LTS Z CALIBRATION*)'}, 8009: {'size': 500, 'comment': '(HI FUNCTION CANCLE)'}, 8100: {'size': 500, 'comment': '(STARTING CODE)'}, 8101: {'size': 500, 'comment': '(STARTING CODE)'}, 8102: {'size': 500, 'comment': '(STARTING CODE TIME CHECK)'}, 8400: {'size': 500, 'comment': '()'}, 8412: {'size': 500, 'comment': '()'}, 8502: {'size': 500, 'comment': '(CHIP TO CHIP TIME)'}, 8503: {'size': 500, 'comment': '(TOOL TO TOOL TIME)'}, 8504: {'size': 500, 'comment': '()'}, 9020: {'size': 1000, 'comment': '(M06 T..AUTO CHANGE)'}, 9021: {'size': 1000, 'comment': '(M16 T..AUTO CHANGE)'}, 9025: {'size': 500, 'comment': '(*LTS AUTO TOOL SETTING*)'}, 9026: {'size': 500, 'comment': '(*BROKEN TOOL CHECK*)'}, 9027: {'size': 500, 'comment': '(*LTS MANUAL TOOL SETTING*)'}, 9040: {'size': 500, 'comment': '()'}, 9741: {'size': 500, 'comment': '(OMP60 START)'}, 9742: {'size': 500, 'comment': '(OMP60 END)'}, 9743: {'size': 500, 'comment': '(TS27R START)'}, 9744: {'size': 500, 'comment': '(TS27R END)'}, 9921: {'size': 4000, 'comment': '()'}, 9999: {'size': 500, 'comment': '()'}}",
-        "name": "CNC N#1",
+        "ipaddress": "192.168.102.116",
+        "listprog": "{1: {'size': 1000, 'comment': '(PART 1)'}, 2: {'size': 1000, 'comment': '(PART 2)'}, 3: {'size': 1000, 'comment': '(PART 2)'}, 111: {'size': 9000, 'comment': '()'}, 147: {'size': 500, 'comment': '(TEST NUT AUTO PLC)'}, 203: {'size': 1000, 'comment': '(660-RUNNING)'}, 204: {'size': 500, 'comment': '(Z-AXIS TEST)'}}",
+        "name": "CNC N#16",
         "statusInfo": {
           "alarm": 0,
           "aut": 5,
@@ -26,21 +198,22 @@
       },
       "cncProgram": {
         "partcount": {
-          "3901": 59
+          "3901": 101
         },
         "readexecprog": {
-          "block": 0,
-          "text": "O0610(DJG2203-12.01-06  FRONT FRAME OP1020 )\nN10G0G40G49\nN20G80G90G94G98\nN30G54\n\n(TWISTED DRILL D4 L35 SD4)\nN40T3M6\nN50T4\nN60S4775M3\nN70G90\n(DRILLING)\nN80G0G17X330.687Y-81.533\nN90G43Z103.H3\nN100M8\nN110G81G98Z91.845R100.F477\nN120X224.437Y-82.2\nN130X219.937"
+          "block": 1,
+          "text": "<0740>(DJG2203-12.01-40-100-11032023)\nN10G0G40G49\nN20G80G90G94G98\nN30G54\n\n(FLAT DRILL D36 L35 SD36)\nN40T2M6\nN50T4\nN60S1768M3\nN70G90\n(DRILLING)\nN80G0G17X0Y0\nN90G43Z272.H2\nN100M8\nN110G81G98Z215.R222.F177\nN120X210.\nN130G80\nN140G0Z272.\nN150X420.\nN160Z222.\nN17"
         },
-        "readprogname": "//CNC_MEM/USER/LIBRARY/O610",
+        "readprogname": "//CNC_MEM/USER/PATH1/0740",
         "readprognum": {
-          "main": 610,
-          "run": 610
+          "main": 0,
+          "run": 0
         },
         "target": {
           "3902": 0
         }
       },
+      "dataTime": "2023-03-13 15:57:48",
       "id": 1,
       "isconnected": true,
       "readactfeed": 0,
@@ -49,28 +222,17 @@
     {
       "AxesPossition": {
         "ABS": [
-          435.438,
-          -120.849,
-          -49.971,
+          -173.51,
+          -80.845,
+          0,
+          48,
           0,
           0,
           0,
           0,
           0,
-          0,
-          0,
-          360,
-          0,
-          0,
-          3362124.8,
-          50332928,
-          50334208,
-          16777984,
-          285.212672,
-          -1786041298,
-          256,
-          16777472,
           33554432,
+          1.380012072e-75,
           0,
           0,
           0,
@@ -78,14 +240,33 @@
           0,
           0,
           0,
+          50331648,
+          1.380012072e-75,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1862270976,
+          10536,
           0,
           0,
           0
         ],
-        "REL": [
-          -331.609,
-          -292.875,
-          0.029,
+        "DIST": [
+          0,
+          0,
+          0,
+          48,
+          0,
+          0,
+          0,
+          0,
+          0,
+          33554432,
+          1380012072,
           0,
           0,
           0,
@@ -93,18 +274,8 @@
           0,
           0,
           0,
-          1744896000,
-          0,
-          0,
-          327938,
-          327683,
-          655363,
-          196609,
-          17,
-          774671253,
-          65536,
-          65537,
-          2,
+          50331648,
+          1380012072,
           0,
           0,
           0,
@@ -112,14 +283,24 @@
           0,
           0,
           0,
+          1862270976,
+          10536,
           0,
           0,
           0
         ],
         "REF": [
-          -331.609,
-          -292.875,
-          0.029,
+          -660,
+          -196,
+          0,
+          48,
+          0,
+          0,
+          0,
+          0,
+          0,
+          33554432,
+          1380012072,
           0,
           0,
           0,
@@ -127,16 +308,158 @@
           0,
           0,
           0,
-          360,
+          50331648,
+          1380012072,
           0,
           0,
-          33621248,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1862270976,
+          10536,
+          0,
+          0,
+          0
+        ],
+        "REL": [
+          -660,
+          -196,
+          165.04,
+          805306368,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          676348242,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          676348242,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          111,
+          673775616,
+          0,
+          0,
+          0
+        ],
+        "SKIP": [
+          -173.51,
+          -80.845,
+          0,
+          805306368,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          676348242,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          676348242,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          111,
+          673775616,
+          0,
+          0,
+          0
+        ]
+      },
+      "cncInfo": {
+        "SystemInfo": {
+          "addinfo": 1570,
+          "axes": "b'03'",
+          "cnctype": "b' 0'",
+          "maxaxis": 32,
+          "mttype": "b' M'",
+          "series": "b'D4G3'",
+          "version": "b'29.0'"
+        },
+        "ipaddress": "192.168.102.116",
+        "listprog": "{1: {'size': 1000, 'comment': '(PART 1)'}, 2: {'size': 1000, 'comment': '(PART 2)'}, 3: {'size': 1000, 'comment': '(PART 2)'}, 111: {'size': 9000, 'comment': '()'}, 147: {'size': 500, 'comment': '(TEST NUT AUTO PLC)'}, 203: {'size': 1000, 'comment': '(660-RUNNING)'}, 204: {'size': 500, 'comment': '(Z-AXIS TEST)'}}",
+        "name": "CNC N#16",
+        "statusInfo": {
+          "alarm": 0,
+          "aut": 0,
+          "edit": 0,
+          "emegency": 0,
+          "motion": 0,
+          "mstb": 0,
+          "run": 1
+        }
+      },
+      "cncProgram": {
+        "partcount": {
+          "3901": 101
+        },
+        "readexecprog": {
+          "block": 1,
+          "text": "O0000%"
+        },
+        "readprogname": "//CNC_MEM/USER/PATH1/0740",
+        "readprognum": {
+          "main": 0,
+          "run": 0
+        },
+        "target": {
+          "3902": 0
+        }
+      },
+      "id": 2,
+      "isconnected": true,
+      "readactfeed": 0,
+      "readactspindlespeed": 0
+    },
+    {
+      "AxesPossition": {
+        "ABS": [
+          -173.509,
+          -80.842,
+          0.033,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          33554432,
+          1.380012072e-75,
+          0,
+          0,
+          3362124.8,
           50332928,
           50334208,
-          16777984,
-          285212672,
-          -1786041298,
-          256,
+          1677798.4,
+          1.114112e-26,
+          50331648,
+          1.380012072e-75,
           16777472,
           33554432,
           0,
@@ -144,42 +467,8 @@
           0,
           0,
           0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "SKIP": [
-          -232.953,
-          172.026,
-          -50,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1744896000,
-          0,
-          0,
-          327938,
-          327683,
-          655363,
-          196609,
-          17,
-          774671253,
-          65536,
-          65537,
-          2,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
+          1862270976,
+          10536,
           0,
           0,
           0
@@ -194,17 +483,17 @@
           0,
           0,
           0,
-          0,
-          360,
+          33554432,
+          1380012072,
           0,
           0,
           33621248,
           50332928,
           50334208,
           16777984,
-          285212672,
-          -1786041298,
-          256,
+          1114112,
+          50331648,
+          1380012072,
           16777472,
           33554432,
           0,
@@ -212,31 +501,457 @@
           0,
           0,
           0,
+          1862270976,
+          10536,
           0,
           0,
+          0
+        ],
+        "REF": [
+          -659.999,
+          -195.997,
+          0.033,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          33554432,
+          1380012072,
+          0,
+          0,
+          33621248,
+          50332928,
+          50334208,
+          16777984,
+          1114112,
+          50331648,
+          1380012072,
+          16777472,
+          33554432,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1862270976,
+          10536,
+          0,
+          0,
+          0
+        ],
+        "REL": [
+          -659.999,
+          -195.997,
+          165.073,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          676348242,
+          0,
+          0,
+          327938,
+          327683,
+          655363,
+          196609,
+          4352,
+          3,
+          676348242,
+          65537,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          111,
+          673775616,
+          0,
+          0,
+          0
+        ],
+        "SKIP": [
+          -173.51,
+          -80.845,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          676348242,
+          0,
+          0,
+          327938,
+          327683,
+          655363,
+          196609,
+          4352,
+          3,
+          676348242,
+          65537,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          111,
+          673775616,
           0,
           0,
           0
         ]
       },
       "cncInfo": {
-        "SystemInfo": "{'addinfo': 1570, 'maxaxis': 32, 'cnctype': b' 0', 'mttype': b' M', 'series': b'D4G3', 'version': b'29.0', 'axes': b'03'}",
-        "ipaddress": "192.168.102.122",
-        "listprog": "{4: {'size': 500, 'comment': '()'}, 5: {'size': 500, 'comment': '()'}, 6: {'size': 500, 'comment': '()'}, 88: {'size': 500, 'comment': '()'}, 147: {'size': 500, 'comment': '(TEST NUT AUTO PLC)'}, 203: {'size': 1000, 'comment': '(VETA-1000)'}, 204: {'size': 500, 'comment': '(Z-AXIS TEST)'}, 213: {'size': 11500, 'comment': '(DJG2203-12.01-06  FRONT FRAME OP30 )'}, 220: {'size': 11500, 'comment': '(DJG2203-12.01-06  FRONT FRAME OP30 )'}, 1213: {'size': 500, 'comment': '()'}}",
-        "name": "TEST CNC",
-        "statusInfo": "{'aut': 1, 'run': 0, 'motion': 0, 'mstb': 0, 'emegency': 1, 'alarm': 1, 'edit': 0}"
+        "SystemInfo": {
+          "addinfo": 1570,
+          "axes": "b'03'",
+          "cnctype": "b' 0'",
+          "maxaxis": 32,
+          "mttype": "b' M'",
+          "series": "b'D4G3'",
+          "version": "b'29.0'"
+        },
+        "ipaddress": "192.168.102.116",
+        "listprog": "{1: {'size': 1000, 'comment': '(PART 1)'}, 2: {'size': 1000, 'comment': '(PART 2)'}, 3: {'size': 1000, 'comment': '(PART 2)'}, 111: {'size': 9000, 'comment': '()'}, 147: {'size': 500, 'comment': '(TEST NUT AUTO PLC)'}, 203: {'size': 1000, 'comment': '(660-RUNNING)'}, 204: {'size': 500, 'comment': '(Z-AXIS TEST)'}}",
+        "name": "CNC N#16",
+        "statusInfo": {
+          "alarm": 0,
+          "aut": 5,
+          "edit": 0,
+          "emegency": 0,
+          "motion": 0,
+          "mstb": 0,
+          "run": 0
+        }
       },
       "cncProgram": {
-        "partcount": 43,
-        "readexecprog": "chuongtrinhcode",
-        "readprogname": "//CNC_MEM/USER/PATH1/O147",
-        "readprognum": "{'run': 0, 'main': 147}",
-        "target": 100
+        "partcount": {
+          "3901": 101
+        },
+        "readexecprog": {
+          "block": 1,
+          "text": "<0740>(DJG2203-12.01-40-100-11032023)\nN10G0G40G49\nN20G80G90G94G98\nN30G54\n\n(FLAT DRILL D36 L35 SD36)\nN40T2M6\nN50T4\nN60S1768M3\nN70G90\n(DRILLING)\nN80G0G17X0Y0\nN90G43Z272.H2\nN100M8\nN110G81G98Z215.R222.F177\nN120X210.\nN130G80\nN140G0Z272.\nN150X420.\nN160Z222.\nN17"
+        },
+        "readprogname": "//CNC_MEM/USER/PATH1/0740",
+        "readprognum": {
+          "main": 0,
+          "run": 0
+        },
+        "target": {
+          "3902": 0
+        }
       },
-      "id": 10,
+      "dataTime": "2023-03-13 15:48:02",
+      "id": 3,
       "isconnected": true,
-      "readactfeed": 2.1,
-      "readactspindlespeed": 100.4
+      "readactfeed": 0,
+      "readactspindlespeed": 0
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "AxesPossition": {
+        "ABS": [
+          -173.509,
+          -80.841,
+          0.085,
+          7.58133805e-41,
+          8.58796337e-42,
+          8.27197993e-40,
+          8.77080628e-49,
+          8.08994608e-49,
+          0.1194932532,
+          33554432,
+          1.380012072e-75,
+          8.60102656e-46,
+          1.146298421e-42,
+          1.412445262e-41,
+          1.412445518e-43,
+          9.2597944e-46,
+          8.08930826e-49,
+          1.380526148e-67,
+          50331648,
+          1.380012072e-75,
+          1.194342656e-43,
+          1.210987063e-41,
+          0.0944582704,
+          8.25771824e-63,
+          7.75237938e-74,
+          0.092597611,
+          1.479684656e-39,
+          1862270976,
+          8.05316904e-63,
+          1.70799671e-70,
+          8.08596568e-38,
+          8.44771382e-42
+        ],
+        "DIST": [
+          0,
+          0,
+          0,
+          758133805,
+          858796337,
+          827197993,
+          877080628,
+          808994608,
+          1194932532,
+          33554432,
+          1380012072,
+          860102656,
+          1146298421,
+          1412445262,
+          1412445518,
+          925979440,
+          808930826,
+          1380526148,
+          50331648,
+          1380012072,
+          1194342656,
+          1210987063,
+          944582704,
+          825771824,
+          775237938,
+          925976110,
+          1479684656,
+          1862270976,
+          805316904,
+          170799671,
+          808596568,
+          844771382
+        ],
+        "REF": [
+          -659.999,
+          -195.996,
+          0.085,
+          758133805,
+          858796337,
+          827197993,
+          877080628,
+          808994608,
+          1194932532,
+          33554432,
+          1380012072,
+          860102656,
+          1146298421,
+          1412445262,
+          1412445518,
+          925979440,
+          808930826,
+          1380526148,
+          50331648,
+          1380012072,
+          1194342656,
+          1210987063,
+          944582704,
+          825771824,
+          775237938,
+          925976110,
+          1479684656,
+          1862270976,
+          805316904,
+          170799671,
+          808596568,
+          844771382
+        ],
+        "REL": [
+          -659.999,
+          -195.996,
+          165.125,
+          758394925,
+          825307187,
+          688541233,
+          875579188,
+          809973808,
+          876165447,
+          2,
+          676348242,
+          2114611,
+          891310916,
+          1312043092,
+          1312108628,
+          810758455,
+          172898096,
+          1143490898,
+          3,
+          676348242,
+          3747911,
+          926035528,
+          808471864,
+          809973809,
+          842085678,
+          776352055,
+          808596056,
+          111,
+          673775664,
+          926035466,
+          1479815728,
+          909138482
+        ],
+        "SKIP": [
+          -173.51,
+          -80.845,
+          0,
+          758394925,
+          825307187,
+          688541233,
+          875579188,
+          809973808,
+          876165447,
+          2,
+          676348242,
+          2114611,
+          891310916,
+          1312043092,
+          1312108628,
+          810758455,
+          172898096,
+          1143490898,
+          3,
+          676348242,
+          3747911,
+          926035528,
+          808471864,
+          809973809,
+          842085678,
+          776352055,
+          808596056,
+          111,
+          673775664,
+          926035466,
+          1479815728,
+          909138482
+        ]
+      },
+      "cncInfo": {
+        "SystemInfo": {
+          "addinfo": 1570,
+          "axes": "b'03'",
+          "cnctype": "b' 0'",
+          "maxaxis": 32,
+          "mttype": "b' M'",
+          "series": "b'D4G3'",
+          "version": "b'29.0'"
+        },
+        "ipaddress": "192.168.102.116",
+        "listprog": "{1: {'size': 1000, 'comment': '(PART 1)'}, 2: {'size': 1000, 'comment': '(PART 2)'}, 3: {'size': 1000, 'comment': '(PART 2)'}, 111: {'size': 9000, 'comment': '()'}, 147: {'size': 500, 'comment': '(TEST NUT AUTO PLC)'}, 203: {'size': 1000, 'comment': '(660-RUNNING)'}, 204: {'size': 500, 'comment': '(Z-AXIS TEST)'}}",
+        "name": "CNC N#16",
+        "statusInfo": {
+          "alarm": 1,
+          "aut": 5,
+          "edit": 0,
+          "emegency": 1,
+          "motion": 0,
+          "mstb": 0,
+          "run": 0
+        }
+      },
+      "cncProgram": {
+        "partcount": {
+          "3901": 101
+        },
+        "readexecprog": {
+          "block": 1,
+          "text": "<0740>(DJG2203-12.01-40-100-11032023)\nN10G0G40G49\nN20G80G90G94G98\nN30G54\n\n(FLAT DRILL D36 L35 SD36)\nN40T2M6\nN50T4\nN60S1768M3\nN70G90\n(DRILLING)\nN80G0G17X0Y0\nN90G43Z272.H2\nN100M8\nN110G81G98Z215.R222.F177\nN120X210.\nN130G80\nN140G0Z272.\nN150X420.\nN160Z222.\nN17"
+        },
+        "readprogname": "//CNC_MEM/USER/PATH1/0740",
+        "readprognum": {
+          "main": 0,
+          "run": 0
+        },
+        "target": {
+          "3902": 0
+        }
+      },
+      "dataTime": "2023-03-13 17:49:17",
+      "id": 16,
+      "isconnected": true,
+      "readactfeed": 0,
+      "readactspindlespeed": 0
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "id": 20
+    },
+    {
+      "id": 21
+    },
+    {
+      "id": 22
+    },
+    {
+      "id": 23
+    },
+    {
+      "id": 24
+    },
+    {
+      "id": 25
+    },
+    {
+      "id": 26
+    },
+    {
+      "id": 27
+    },
+    {
+      "id": 28
+    },
+    {
+      "id": 29
+    },
+    {
+      "id": 30
     }
   ],
   "comments": [
@@ -248,387 +963,909 @@
   ],
   "profile": {
     "name": "AMASMART TNHH",
-    "comment":"day la du an demo"
+    "comment": "day la du an demo"
   },
-  "Line8Data": {
-    "PLC_LogHotShear": {
+  "Line8Data": [
+	{
+	  "id": 1,
       "PLC_isConnected": true,
       "PLC_infor": {
-        "name": "Log hot shear",
+        "name": "PLC_LogHotShear",
         "ip": "192.168.0.10",
         "port": 8000,
-        "StationInfo": [ "OP20", "OP30", "OP40" ]
+        "StationInfo": [
+          "OP20",
+          "OP30",
+          "OP40"
+        ]
       },
-      "Data": {
-        "BLower": {
-          "Value": true,
-          "Comment": "khí thổi vào máy"
+    "Data": {
+      "BLower": {
+        "Value": true,
+        "Comment": "khí thổi vào máy"
+      },
+      "BLower_LowPressure": {
+        "Value": true,
+        "Comment": "cảm biến áp suất khí Thấp"
+      },
+      "ExhaustFan": {
+        "Value": true,
+        "Comment": "Quạt hút khí thải"
+      },
+      "ExhaustFan_Temp": {
+        "Value": 37,
+        "Comment": "độ C"
+      },
+      "FurnaceInside": {
+        "Value": 70,
+        "Comment": "độ C"
+      },
+      "Billet_Length": {
+        "Billet_Length_Setting": {
+          "Value": 600,
+          "Comment": "mm, kích thước cài đặt cắt của billet hiện tại"
         },
-        "BLower_LowPressure": {
-          "Value": true,
-          "Comment": "cảm biến áp suất khí Thấp"
+        "Billet_Length_Value": {
+          "Value": 512,
+          "Comment": "mm, kích thước thực tế của billet hiện tại"
+        }
+      },
+      "Billet_Length_Setting_Mode": {
+        "Mode1": {
+          "Value": 100,
+          "Comment": "mm, kích thước cắt ưu tiên 1"
         },
-        "ExhaustFan": {
-          "Value": true,
-          "Comment": "Quạt hút khí thải"
+        "Mode2": {
+          "Value": 200,
+          "Comment": "mm, kích thước cắt ưu tiên 2"
         },
-        "ExhaustFan_Temp": {
-          "Value": 37,
-          "Comment": "độ C"
-        },
-        "FurnaceInside": {
-          "Value": 70,
-          "Comment": "độ C"
-        },
-        "Billet_Length": {
-          "Billet_Length_Setting": {
-            "Value": 600,
-            "Comment": "mm, kích thước cài đặt cắt của billet hiện tại"
-          },
-          "Billet_Length_Value": {
-            "Value": 512,
-            "Comment": "mm, kích thước thực tế của billet hiện tại"
-          }
-        },
-        "Billet_Length_Setting_Mode": {
-          "Mode1": {
-            "Value": 100,
-            "Comment": "mm, kích thước cắt ưu tiên 1"
-          },
-          "Mode2": {
-            "Value": 200,
-            "Comment": "mm, kích thước cắt ưu tiên 2"
-          },
-          "Mode3": {
-            "Value": 300,
-            "Comment": "mm, kích thước cắt ưu tiên 3"
-          },
-          "Mode4": {
-            "Value": 400,
-            "Comment": "mm, kích thước cắt ưu tiên 4"
-          },
-          "Mode5": {
-            "Value": 500,
-            "Comment": "mm, kích thước cắt ưu tiên 5"
-          },
-          "Mode6": {
-            "Value": 600,
-            "Comment": "mm, kích thước cắt ưu tiên 6"
-          },
-          "Mode7": {
-            "Value": 700,
-            "Comment": "mm, kích thước cắt ưu tiên 7"
-          },
-          "Mode8": {
-            "Value": 800,
-            "Comment": "mm, kích thước cắt ưu tiên 8"
-          },
-          "ModeSelect": {
-            "Value": 3,
-            "Comment": "số lượng, chạy vòng tròn từ Mode1-2-3-1-2-3...."
-          }
-        },
-        "Quantity": {
-          "Target": {
-            "Value": 800,
-            "Comment": "pcs, số lượng target cắt thành phẩm"
-          },
-          "Now": {
-            "Value": 70,
-            "Comment": "pcs, số lượng cắt thành phẩm thực tế"
-          },
-          "Day_Total": {
-            "Weight": {
-              "Value": 30,
-              "Comment": "Tấn, đã cắt theo ngày"
-            },
-            "Length": {
-              "Value": 340,
-              "Comment": "m, đã cắt theo ngày"
-            },
-            "Quantity": {
-              "Value": 60,
-              "Comment": "EA, đã cắt theo ngày"
-            }
-          },
-          "Total_Accum": {
-            "Weight": {
-              "Value": 30,
-              "Comment": "Tấn, tổng đã cắt"
-            },
-            "Length": {
-              "Value": 340,
-              "Comment": "m, tổng đã cắt"
-            },
-            "Quantity": {
-              "Value": 60,
-              "Comment": "EA, tổng đã cắt"
-            }
-          }
-        },
-        "Fusher_Position": {
+        "Mode3": {
           "Value": 300,
-          "Comment": "mm, vị trí thực tế của cụm dịch chuyển Billet Logloading"
+          "Comment": "mm, kích thước cắt ưu tiên 3"
         },
-        "NoCutFeed": {
-          "Value": true,
-          "Comment": "False-Đủ điều kiện cắt"
+        "Mode4": {
+          "Value": 400,
+          "Comment": "mm, kích thước cắt ưu tiên 4"
         },
-        "LogHeatter": {
-          "FS": {
-            "Value": true,
-            "Comment": " "
+        "Mode5": {
+          "Value": 500,
+          "Comment": "mm, kích thước cắt ưu tiên 5"
+        },
+        "Mode6": {
+          "Value": 600,
+          "Comment": "mm, kích thước cắt ưu tiên 6"
+        },
+        "Mode7": {
+          "Value": 700,
+          "Comment": "mm, kích thước cắt ưu tiên 7"
+        },
+        "Mode8": {
+          "Value": 800,
+          "Comment": "mm, kích thước cắt ưu tiên 8"
+        },
+        "ModeSelect": {
+          "Value": 3,
+          "Comment": "số lượng, chạy vòng tròn từ Mode1-2-3-1-2-3...."
+        }
+      },
+      "Quantity": {
+        "Target": {
+          "Value": 800,
+          "Comment": "pcs, số lượng target cắt thành phẩm"
+        },
+        "Now": {
+          "Value": 70,
+          "Comment": "pcs, số lượng cắt thành phẩm thực tế"
+        },
+        "Day_Total": {
+          "Weight": {
+            "Value": 30,
+            "Comment": "Tấn, đã cắt theo ngày"
           },
-          "Double_Cut_Enable": {
-            "Value": true,
-            "Comment": "cắt 2 lần"
+          "Length": {
+            "Value": 340,
+            "Comment": "m, đã cắt theo ngày"
           },
-          "Gas_Pressure": {
-            "Value": true,
-            "Comment": "Cảm biến áp suất khí Gas đầu vào"
-          },
-          "Zone1": {
-            "Temperature": {
-              "PV": {
-                "Value": true,
-                "Comment": "C,Nhiệt độ cài đặt"
-              },
-              "SV": {
-                "Value": true,
-                "Comment": "C,Nhiệt độ thực tế"
-              }
-            },
-            "ValveSmall_Open": {
-              "Value": true,
-              "Comment": "Open val đường khí áp nhỏ"
-            },
-            "ValveLagger_Open": {
-              "Value": true,
-              "Comment": "Open val đường khí áp lớn"
-            }
-          },
-          "Zone2": {
-            "Temperature": {
-              "PV": {
-                "Value": true,
-                "Comment": "C,Nhiệt độ cài đặt"
-              },
-              "SV": {
-                "Value": true,
-                "Comment": "C,Nhiệt độ thực tế"
-              }
-            },
-            "ValveSmall_Open": {
-              "Value": true,
-              "Comment": "Open val đường khí áp nhỏ"
-            },
-            "ValveLagger_Open": {
-              "Value": true,
-              "Comment": "Open val đường khí áp lớn"
-            }
-          },
-          "Zone3": {
-            "Temperature": {
-              "PV": {
-                "Value": true,
-                "Comment": "C,Nhiệt độ cài đặt"
-              },
-              "SV": {
-                "Value": true,
-                "Comment": "C,Nhiệt độ thực tế"
-              }
-            },
-            "ValveSmall_Open": {
-              "Value": true,
-              "Comment": "Open val đường khí áp nhỏ"
-            },
-            "ValveLagger_Open": {
-              "Value": true,
-              "Comment": "Open val đường khí áp lớn"
-            }
-          },
-          "Zone4": {
-            "Temperature": {
-              "PV": {
-                "Value": true,
-                "Comment": "C,Nhiệt độ cài đặt"
-              },
-              "SV": {
-                "Value": true,
-                "Comment": "C,Nhiệt độ thực tế"
-              }
-            },
-            "ValveSmall_Open": {
-              "Value": true,
-              "Comment": "Open val đường khí áp nhỏ"
-            },
-            "ValveLagger_Open": {
-              "Value": true,
-              "Comment": "Open val đường khí áp lớn"
-            }
+          "Quantity": {
+            "Value": 60,
+            "Comment": "EA, đã cắt theo ngày"
           }
         },
-        "Station_Status": {
-          "Status": {
-            "Billet_mode_1pcs": {
-              "Value": false,
-              "Comment": "1 bill mode (1psc)"
+        "Total_Accum": {
+          "Weight": {
+            "Value": 30,
+            "Comment": "Tấn, tổng đã cắt"
+          },
+          "Length": {
+            "Value": 340,
+            "Comment": "m, tổng đã cắt"
+          },
+          "Quantity": {
+            "Value": 60,
+            "Comment": "EA, tổng đã cắt"
+          }
+        }
+      },
+      "Fusher_Position": {
+        "Value": 300,
+        "Comment": "mm, vị trí thực tế của cụm dịch chuyển Billet Logloading"
+      },
+      "NoCutFeed": {
+        "Value": true,
+        "Comment": "False-Đủ điều kiện cắt"
+      },
+      "LogHeatter": {
+        "FS": {
+          "Value": true,
+          "Comment": " "
+        },
+        "Double_Cut_Enable": {
+          "Value": true,
+          "Comment": "cắt 2 lần"
+        },
+        "Gas_Pressure": {
+          "Value": true,
+          "Comment": "Cảm biến áp suất khí Gas đầu vào"
+        },
+        "Zone1": {
+          "Temperature": {
+            "PV": {
+              "Value": true,
+              "Comment": "C,Nhiệt độ cài đặt"
             },
-            "Billet_mode_2pcs": {
-              "Value": false,
-              "Comment": "2 bill mode (2psc)"
-            },
-            "Billet_mode_Half": {
-              "Value": false,
-              "Comment": "Half billet mode"
-            },
-            "Status": {
-              "Value": false,
-              "Comment": "(PLC.B.B09A == 0) && (PLC.B.B09B == 0) && (PLC.B.B09C == 0) : Standby"
+            "SV": {
+              "Value": true,
+              "Comment": "C,Nhiệt độ thực tế"
             }
           },
-          "Alarm": {
-            "List": {
-              "B000": "Hyd PumpMotorOverLoad",
-              "B001": "BlowerFan1OverLoad",
-              "B002": "BlowerFan2OverLoad",
-              "B003": "ExhaustFanOverLoad",
-              "B004": "CarrierMotorOverLoad",
-              "B005": "BrushMotorOverLoad",
-              "B006": "DustCollectorMotorOverLoad",
-              "B007": "LogDeckMotorOverLoad",
-              "B008": "SawInverterAlarm",
-              "B009": "ChipCollectorOverload",
-              "B00A": "Wait……SKM",
-              "B00B": "NoErrorCode(Reserved)",
-              "B00C": "NoErrorCode(Reserved)",
-              "B00D": "NoErrorCode(Reserved)",
-              "B00E": "PusherInverterAlarm",
-              "B00F": "ExhaustFanModutrolOverLoad",
-              "B010": "Z1ThermocoupleActionError",
-              "B011": "Z2ThermocoupleActionError",
-              "B012": "Z3ThermocoupleActionError",
-              "B013": "Z4ThermocoupleActionError",
-              "B014": "Z5ThermocoupleActingError",
-              "B015": "Z6ThermocoupleActingError",
-              "B016": "WarningZ6OverTemp",
-              "B017": "Z6AccidentalMisfire",
-              "B018": "Z6ModutrolMotorActionTrouble",
-              "B019": "Z6ThermocoupleBreakingWire",
-              "B01A": "Z1ThermocoupleBreakingWire",
-              "B01B": "Z2ThermocoupleBreakingWire",
-              "B01C": "Z3ThermocoupleBreakingWire",
-              "B01D": "Z4ThermocoupleBreakingWire",
-              "B01E": "Z5ThermocoupleBreakingWire",
-              "B01F": "WarningZ1OverTemp",
-              "B020": "WarningZ2OverTemp",
-              "B021": "WarningZ3OverTemp",
-              "B022": "WarningZ4OverTemp",
-              "B023": "WarningZ5OverTemp",
-              "B024": "Z1AccidentalMisfire",
-              "B025": "Z2AccidentalMisfire",
-              "B026": "Z3AccidentalMisfire",
-              "B027": "Z4AccidentalMisfire",
-              "B028": "Z5AccidentalMisfire",
-              "B029": "Z1ModutrolMotorActionTrouble",
-              "B02A": "Z2ModutrolMotorActionTrouble",
-              "B02B": "Z3ModutrolMotorActionTrouble",
-              "B02C": "Z4ModutrolMotorActionTrouble",
-              "B02D": "Z5ModutrolMotorActionTrouble",
-              "B02E": "ExhaustModutrolMotorActionTrouble",
-              "B02F": "BilletOutDoorActionTrouble",
-              "B030": "BilletOutDoorPositionError",
-              "B031": "WarningCutterActionTrouble",
-              "B032": "WarningCutterPositionError",
-              "B033": "StopperActionTrouble",
-              "B034": "StopperPositionError",
-              "B035": "WarningReturnLimit/SensorError",
-              "B036": "WarningReturnActionTrouble",
-              "B037": "WarningReturnPositionError",
-              "B038": "EjectorActionTrouble",
-              "B039": "EjectorPositionError",
-              "B03A": "ParkingPositionError",
-              "B03B": "ParkingActionTrouble",
-              "B03C": "TiltingActionTrouble",
-              "B03D": "TiltingPositionError",
-              "B03E": "ClampActionTrouble",
-              "B03F": "TurnTableActionTrouble",
-              "B040": "CareerTiltingActionTrouble",
-              "B041": "Billetlengthlessthan1000mm",
-              "B042": "ChipPressDamperActionTrouble",
-              "B043": "ChipPressDoorActionError",
-              "B044": "ChipPressMainCylinderActionTrouble",
-              "B045": "StopperInletBilletSeningError",
-              "B046": "FeederDownNoSignalError",
-              "B047": "EmergencyFireExtinguishing",
-              "B048": "WorkFinishedCloseCoolingStart",
-              "B049": "ExhaustGasOverTemp",
-              "B04A": "FurnaceTemp#1Hi-Temp",
-              "B04B": "FurnaceTemp#2Hi-Temp",
-              "B04C": "BelletOutCycleTimeOver",
-              "B04D": "CuttinglengthsettingError",
-              "B04E": "PLCHSCModuleError",
-              "B04F": "OperationPreparatorycance",
-              "B050": "EmergencyStop",
-              "B051": "TemporaryStop",
-              "B052": "WarningTempOverEmergencyCoolingStart",
-              "B053": "OilLevellow",
-              "B054": "BilletForwardMovingActionError",
-              "B055": "BilletOverForwardRestrictionMovingLimit",
-              "B056": "WaitLogInterferencDetection",
-              "B057": "LogDeckBilletdonotexist",
-              "B058": "HalfCuttingParkingError",
-              "B059": "PusherForwardSensingWarning",
-              "B05A": "WarningTwoPieceLogComesOut",
-              "B05B": "GasPressureLow",
-              "B05C": "GasPressureHigh",
-              "B05D": "BlowerFanpressureLow",
-              "B05E": "CompulsionCoolingStart",
-              "B05F": "NoErrorCode(Reserved)",
-              "B060": "UnableBilletOutput,StopperNoBackward",
-              "B061": "UnableBilletOutput,DoorWasNotClose",
-              "B062": "UnableBilletOutput,ShearWasNotBackward",
-              "B063": "UnableBilletOutput,ReturnWasNotBackward",
-              "B064": "UnableBilletOutput,EjectorWasNotBackward",
-              "B065": "UnableBilletOutput,TiltingWasNotUplod",
-              "B066": "UnableBilletOutput,ParckingWasNotUplod",
-              "B067": "UnableBilletOutput,HydroMototWasNotRUN",
-              "B068": "AutoModeoffwhenmemorybillet",
-              "B069": "AutoModeoffwhenNomemorybillet",
-              "B06A": "UbableBilletOutput(Reserved)",
-              "B06B": "UnableBilletOutput,CuttingClampNotUnclamled",
-              "B06C": "UbableBilletOutput(Reserved)",
-              "B06D": "UbableBilletOutput(Reserved)",
-              "B06E": "UbableBilletOutput(Reserved)",
-              "B06F": "UbableBilletOutput(Reserved)",
-              "B070": "BilletCallingDelay,BilletLowTemp",
-              "B071": "BilletCallingDelay,CuttingQuantityOver",
-              "B072": "BilletCallingDelay,CuttingLengthSensr\"On\"",
-              "B073": "BilletCallingDelay,BilletInputDemand",
-              "B074": "BilletCallingDelay,BilletMeasuringTemp",
-              "B075": "BilletCallingDelay,BilletStopperInputRuning",
-              "B076": "BilletCallingDelay(Reserved)",
-              "B077": "BilletCallFail,ChipPressNotinAutomode",
-              "B078": "BilletCallFail,ChipPressOff",
-              "B079": "BilletCallingDelay(Reserved)",
-              "B07A": "BilletCallingDelay(Reserved)",
-              "B07B": "BilletCallingDelay(Reserved)",
-              "B07C": "BilletCallingDelay(Reserved)",
-              "B07D": "BilletCallingDelay(Reserved)",
-              "B07E": "BilletCallingDelay(Reserved)",
-              "B07F": "BilletCallingDelay(Reserved)"
+          "ValveSmall_Open": {
+            "Value": true,
+            "Comment": "Open val đường khí áp nhỏ"
+          },
+          "ValveLagger_Open": {
+            "Value": true,
+            "Comment": "Open val đường khí áp lớn"
+          }
+        },
+        "Zone2": {
+          "Temperature": {
+            "PV": {
+              "Value": true,
+              "Comment": "C,Nhiệt độ cài đặt"
+            },
+            "SV": {
+              "Value": true,
+              "Comment": "C,Nhiệt độ thực tế"
+            }
+          },
+          "ValveSmall_Open": {
+            "Value": true,
+            "Comment": "Open val đường khí áp nhỏ"
+          },
+          "ValveLagger_Open": {
+            "Value": true,
+            "Comment": "Open val đường khí áp lớn"
+          }
+        },
+        "Zone3": {
+          "Temperature": {
+            "PV": {
+              "Value": true,
+              "Comment": "C,Nhiệt độ cài đặt"
+            },
+            "SV": {
+              "Value": true,
+              "Comment": "C,Nhiệt độ thực tế"
+            }
+          },
+          "ValveSmall_Open": {
+            "Value": true,
+            "Comment": "Open val đường khí áp nhỏ"
+          },
+          "ValveLagger_Open": {
+            "Value": true,
+            "Comment": "Open val đường khí áp lớn"
+          }
+        },
+        "Zone4": {
+          "Temperature": {
+            "PV": {
+              "Value": true,
+              "Comment": "C,Nhiệt độ cài đặt"
+            },
+            "SV": {
+              "Value": true,
+              "Comment": "C,Nhiệt độ thực tế"
+            }
+          },
+          "ValveSmall_Open": {
+            "Value": true,
+            "Comment": "Open val đường khí áp nhỏ"
+          },
+          "ValveLagger_Open": {
+            "Value": true,
+            "Comment": "Open val đường khí áp lớn"
+          }
+        }
+      },
+      "Station_Status": {
+        "Status": {
+          "Billet_mode_1pcs": {
+            "Value": false,
+            "Comment": "1 bill mode (1psc)"
+          },
+          "Billet_mode_2pcs": {
+            "Value": false,
+            "Comment": "2 bill mode (2psc)"
+          },
+          "Billet_mode_Half": {
+            "Value": false,
+            "Comment": "Half billet mode"
+          },
+          "Status": {
+            "Value": false,
+            "Comment": "(PLC.B.B09A == 0) && (PLC.B.B09B == 0) && (PLC.B.B09C == 0) : Standby"
+          }
+        },
+        "Alarm": {
+          "List": {
+            "B000": {
+              "Tag": "B000",
+              "Value": false,
+              "Comment": "Hyd PumpMotorOverLoad"
+            },
+            "B001": {
+              "Tag": "B001",
+              "Value": false,
+              "Comment": "BlowerFan1OverLoad"
+            },
+            "B002": {
+              "Tag": "B002",
+              "Value": false,
+              "Comment": "BlowerFan2OverLoad"
+            },
+            "B003": {
+              "Tag": "B003",
+              "Value": false,
+              "Comment": "ExhaustFanOverLoad"
+            },
+            "B004": {
+              "Tag": "B004",
+              "Value": false,
+              "Comment": "CarrierMotorOverLoad"
+            },
+            "B005": {
+              "Tag": "B005",
+              "Value": false,
+              "Comment": "BrushMotorOverLoad"
+            },
+            "B006": {
+              "Tag": "B006",
+              "Value": false,
+              "Comment": "DustCollectorMotorOverLoad"
+            },
+            "B007": {
+              "Tag": "B007",
+              "Value": false,
+              "Comment": "LogDeckMotorOverLoad"
+            },
+            "B008": {
+              "Tag": "B008",
+              "Value": false,
+              "Comment": "SawInverterAlarm"
+            },
+            "B009": {
+              "Tag": "B009",
+              "Value": false,
+              "Comment": "ChipCollectorOverload"
+            },
+            "B00A": {
+              "Tag": "B00A",
+              "Value": false,
+              "Comment": "Wait……SKM"
+            },
+            "B00B": {
+              "Tag": "B00B",
+              "Value": false,
+              "Comment": "NoErrorCode(Reserved)"
+            },
+            "B00C": {
+              "Tag": "B00C",
+              "Value": false,
+              "Comment": "NoErrorCode(Reserved)"
+            },
+            "B00D": {
+              "Tag": "B00D",
+              "Value": false,
+              "Comment": "NoErrorCode(Reserved)"
+            },
+            "B00E": {
+              "Tag": "B00E",
+              "Value": false,
+              "Comment": "PusherInverterAlarm"
+            },
+            "B00F": {
+              "Tag": "B00F",
+              "Value": false,
+              "Comment": "ExhaustFanModutrolOverLoad"
+            },
+            "B010": {
+              "Tag": "B010",
+              "Value": false,
+              "Comment": "Z1ThermocoupleActionError"
+            },
+            "B011": {
+              "Tag": "B011",
+              "Value": false,
+              "Comment": "Z2ThermocoupleActionError"
+            },
+            "B012": {
+              "Tag": "B012",
+              "Value": false,
+              "Comment": "Z3ThermocoupleActionError"
+            },
+            "B013": {
+              "Tag": "B013",
+              "Value": false,
+              "Comment": "Z4ThermocoupleActionError"
+            },
+            "B014": {
+              "Tag": "B014",
+              "Value": false,
+              "Comment": "Z5ThermocoupleActingError"
+            },
+            "B015": {
+              "Tag": "B015",
+              "Value": false,
+              "Comment": "Z6ThermocoupleActingError"
+            },
+            "B016": {
+              "Tag": "B016",
+              "Value": false,
+              "Comment": "WarningZ6OverTemp"
+            },
+            "B017": {
+              "Tag": "B017",
+              "Value": false,
+              "Comment": "Z6AccidentalMisfire"
+            },
+            "B018": {
+              "Tag": "B018",
+              "Value": false,
+              "Comment": "Z6ModutrolMotorActionTrouble"
+            },
+            "B019": {
+              "Tag": "B019",
+              "Value": false,
+              "Comment": "Z6ThermocoupleBreakingWire"
+            },
+            "B01A": {
+              "Tag": "B01A",
+              "Value": false,
+              "Comment": "Z1ThermocoupleBreakingWire"
+            },
+            "B01B": {
+              "Tag": "B01B",
+              "Value": false,
+              "Comment": "Z2ThermocoupleBreakingWire"
+            },
+            "B01C": {
+              "Tag": "B01C",
+              "Value": false,
+              "Comment": "Z3ThermocoupleBreakingWire"
+            },
+            "B01D": {
+              "Tag": "B01D",
+              "Value": false,
+              "Comment": "Z4ThermocoupleBreakingWire"
+            },
+            "B01E": {
+              "Tag": "B01E",
+              "Value": false,
+              "Comment": "Z5ThermocoupleBreakingWire"
+            },
+            "B01F": {
+              "Tag": "B01F",
+              "Value": false,
+              "Comment": "WarningZ1OverTemp"
+            },
+            "B020": {
+              "Tag": "B020",
+              "Value": false,
+              "Comment": "WarningZ2OverTemp"
+            },
+            "B021": {
+              "Tag": "B021",
+              "Value": false,
+              "Comment": "WarningZ3OverTemp"
+            },
+            "B022": {
+              "Tag": "B022",
+              "Value": false,
+              "Comment": "WarningZ4OverTemp"
+            },
+            "B023": {
+              "Tag": "B023",
+              "Value": false,
+              "Comment": "WarningZ5OverTemp"
+            },
+            "B024": {
+              "Tag": "B024",
+              "Value": false,
+              "Comment": "Z1AccidentalMisfire"
+            },
+            "B025": {
+              "Tag": "B025",
+              "Value": false,
+              "Comment": "Z2AccidentalMisfire"
+            },
+            "B026": {
+              "Tag": "B026",
+              "Value": false,
+              "Comment": "Z3AccidentalMisfire"
+            },
+            "B027": {
+              "Tag": "B027",
+              "Value": false,
+              "Comment": "Z4AccidentalMisfire"
+            },
+            "B028": {
+              "Tag": "B028",
+              "Value": false,
+              "Comment": "Z5AccidentalMisfire"
+            },
+            "B029": {
+              "Tag": "B029",
+              "Value": false,
+              "Comment": "Z1ModutrolMotorActionTrouble"
+            },
+            "B02A": {
+              "Tag": "B02A",
+              "Value": false,
+              "Comment": "Z2ModutrolMotorActionTrouble"
+            },
+            "B02B": {
+              "Tag": "B02B",
+              "Value": false,
+              "Comment": "Z3ModutrolMotorActionTrouble"
+            },
+            "B02C": {
+              "Tag": "B02C",
+              "Value": false,
+              "Comment": "Z4ModutrolMotorActionTrouble"
+            },
+            "B02D": {
+              "Tag": "B02D",
+              "Value": false,
+              "Comment": "Z5ModutrolMotorActionTrouble"
+            },
+            "B02E": {
+              "Tag": "B02E",
+              "Value": false,
+              "Comment": "ExhaustModutrolMotorActionTrouble"
+            },
+            "B02F": {
+              "Tag": "B02F",
+              "Value": false,
+              "Comment": "BilletOutDoorActionTrouble"
+            },
+            "B030": {
+              "Tag": "B030",
+              "Value": false,
+              "Comment": "BilletOutDoorPositionError"
+            },
+            "B031": {
+              "Tag": "B031",
+              "Value": false,
+              "Comment": "WarningCutterActionTrouble"
+            },
+            "B032": {
+              "Tag": "B032",
+              "Value": false,
+              "Comment": "WarningCutterPositionError"
+            },
+            "B033": {
+              "Tag": "B033",
+              "Value": false,
+              "Comment": "StopperActionTrouble"
+            },
+            "B034": {
+              "Tag": "B034",
+              "Value": false,
+              "Comment": "StopperPositionError"
+            },
+            "B035": {
+              "Tag": "B035",
+              "Value": false,
+              "Comment": "WarningReturnLimit/SensorError"
+            },
+            "B036": {
+              "Tag": "B036",
+              "Value": false,
+              "Comment": "WarningReturnActionTrouble"
+            },
+            "B037": {
+              "Tag": "B037",
+              "Value": false,
+              "Comment": "WarningReturnPositionError"
+            },
+            "B038": {
+              "Tag": "B038",
+              "Value": false,
+              "Comment": "EjectorActionTrouble"
+            },
+            "B039": {
+              "Tag": "B039",
+              "Value": false,
+              "Comment": "EjectorPositionError"
+            },
+            "B03A": {
+              "Tag": "B03A",
+              "Value": false,
+              "Comment": "ParkingPositionError"
+            },
+            "B03B": {
+              "Tag": "B03B",
+              "Value": false,
+              "Comment": "ParkingActionTrouble"
+            },
+            "B03C": {
+              "Tag": "B03C",
+              "Value": false,
+              "Comment": "TiltingActionTrouble"
+            },
+            "B03D": {
+              "Tag": "B03D",
+              "Value": false,
+              "Comment": "TiltingPositionError"
+            },
+            "B03E": {
+              "Tag": "B03E",
+              "Value": false,
+              "Comment": "ClampActionTrouble"
+            },
+            "B03F": {
+              "Tag": "B03F",
+              "Value": false,
+              "Comment": "TurnTableActionTrouble"
+            },
+            "B040": {
+              "Tag": "B040",
+              "Value": false,
+              "Comment": "CareerTiltingActionTrouble"
+            },
+            "B041": {
+              "Tag": "B041",
+              "Value": false,
+              "Comment": "Billetlengthlessthan1000mm"
+            },
+            "B042": {
+              "Tag": "B042",
+              "Value": false,
+              "Comment": "ChipPressDamperActionTrouble"
+            },
+            "B043": {
+              "Tag": "B043",
+              "Value": false,
+              "Comment": "ChipPressDoorActionError"
+            },
+            "B044": {
+              "Tag": "B044",
+              "Value": false,
+              "Comment": "ChipPressMainCylinderActionTrouble"
+            },
+            "B045": {
+              "Tag": "B045",
+              "Value": false,
+              "Comment": "StopperInletBilletSeningError"
+            },
+            "B046": {
+              "Tag": "B046",
+              "Value": false,
+              "Comment": "FeederDownNoSignalError"
+            },
+            "B047": {
+              "Tag": "B047",
+              "Value": false,
+              "Comment": "EmergencyFireExtinguishing"
+            },
+            "B048": {
+              "Tag": "B048",
+              "Value": false,
+              "Comment": "WorkFinishedCloseCoolingStart"
+            },
+            "B049": {
+              "Tag": "B049",
+              "Value": false,
+              "Comment": "ExhaustGasOverTemp"
+            },
+            "B04A": {
+              "Tag": "B04A",
+              "Value": false,
+              "Comment": "FurnaceTemp#1Hi-Temp"
+            },
+            "B04B": {
+              "Tag": "B04B",
+              "Value": false,
+              "Comment": "FurnaceTemp#2Hi-Temp"
+            },
+            "B04C": {
+              "Tag": "B04C",
+              "Value": false,
+              "Comment": "BelletOutCycleTimeOver"
+            },
+            "B04D": {
+              "Tag": "B04D",
+              "Value": false,
+              "Comment": "CuttinglengthsettingError"
+            },
+            "B04E": {
+              "Tag": "B04E",
+              "Value": false,
+              "Comment": "PLCHSCModuleError"
+            },
+            "B04F": {
+              "Tag": "B04F",
+              "Value": false,
+              "Comment": "OperationPreparatorycance"
+            },
+            "B050": {
+              "Tag": "B050",
+              "Value": false,
+              "Comment": "EmergencyStop"
+            },
+            "B051": {
+              "Tag": "B051",
+              "Value": false,
+              "Comment": "TemporaryStop"
+            },
+            "B052": {
+              "Tag": "B052",
+              "Value": false,
+              "Comment": "WarningTempOverEmergencyCoolingStart"
+            },
+            "B053": {
+              "Tag": "B053",
+              "Value": false,
+              "Comment": "OilLevellow"
+            },
+            "B054": {
+              "Tag": "B054",
+              "Value": false,
+              "Comment": "BilletForwardMovingActionError"
+            },
+            "B055": {
+              "Tag": "B055",
+              "Value": false,
+              "Comment": "BilletOverForwardRestrictionMovingLimit"
+            },
+            "B056": {
+              "Tag": "B056",
+              "Value": false,
+              "Comment": "WaitLogInterferencDetection"
+            },
+            "B057": {
+              "Tag": "B057",
+              "Value": false,
+              "Comment": "LogDeckBilletdonotexist"
+            },
+            "B058": {
+              "Tag": "B058",
+              "Value": false,
+              "Comment": "HalfCuttingParkingError"
+            },
+            "B059": {
+              "Tag": "B059",
+              "Value": false,
+              "Comment": "PusherForwardSensingWarning"
+            },
+            "B05A": {
+              "Tag": "B05A",
+              "Value": false,
+              "Comment": "WarningTwoPieceLogComesOut"
+            },
+            "B05B": {
+              "Tag": "B05B",
+              "Value": false,
+              "Comment": "GasPressureLow"
+            },
+            "B05C": {
+              "Tag": "B05C",
+              "Value": false,
+              "Comment": "GasPressureHigh"
+            },
+            "B05D": {
+              "Tag": "B05D",
+              "Value": false,
+              "Comment": "BlowerFanpressureLow"
+            },
+            "B05E": {
+              "Tag": "B05E",
+              "Value": false,
+              "Comment": "CompulsionCoolingStart"
+            },
+            "B05F": {
+              "Tag": "B05F",
+              "Value": false,
+              "Comment": "NoErrorCode(Reserved)"
+            },
+            "B060": {
+              "Tag": "B060",
+              "Value": false,
+              "Comment": "UnableBilletOutput,StopperNoBackward"
+            },
+            "B061": {
+              "Tag": "B061",
+              "Value": false,
+              "Comment": "UnableBilletOutput,DoorWasNotClose"
+            },
+            "B062": {
+              "Tag": "B062",
+              "Value": false,
+              "Comment": "UnableBilletOutput,ShearWasNotBackward"
+            },
+            "B063": {
+              "Tag": "B063",
+              "Value": false,
+              "Comment": "UnableBilletOutput,ReturnWasNotBackward"
+            },
+            "B064": {
+              "Tag": "B064",
+              "Value": false,
+              "Comment": "UnableBilletOutput,EjectorWasNotBackward"
+            },
+            "B065": {
+              "Tag": "B065",
+              "Value": false,
+              "Comment": "UnableBilletOutput,TiltingWasNotUplod"
+            },
+            "B066": {
+              "Tag": "B066",
+              "Value": false,
+              "Comment": "UnableBilletOutput,ParckingWasNotUplod"
+            },
+            "B067": {
+              "Tag": "B067",
+              "Value": false,
+              "Comment": "UnableBilletOutput,HydroMototWasNotRUN"
+            },
+            "B068": {
+              "Tag": "B068",
+              "Value": false,
+              "Comment": "AutoModeoffwhenmemorybillet"
+            },
+            "B069": {
+              "Tag": "B069",
+              "Value": false,
+              "Comment": "AutoModeoffwhenNomemorybillet"
+            },
+            "B06A": {
+              "Tag": "B06A",
+              "Value": false,
+              "Comment": "UbableBilletOutput(Reserved)"
+            },
+            "B06B": {
+              "Tag": "B06B",
+              "Value": false,
+              "Comment": "UnableBilletOutput,CuttingClampNotUnclamled"
+            },
+            "B06C": {
+              "Tag": "B06C",
+              "Value": false,
+              "Comment": "UbableBilletOutput(Reserved)"
+            },
+            "B06D": {
+              "Tag": "B06D",
+              "Value": false,
+              "Comment": "UbableBilletOutput(Reserved)"
+            },
+            "B06E": {
+              "Tag": "B06E",
+              "Value": false,
+              "Comment": "UbableBilletOutput(Reserved)"
+            },
+            "B06F": {
+              "Tag": "B06F",
+              "Value": false,
+              "Comment": "UbableBilletOutput(Reserved)"
+            },
+            "B070": {
+              "Tag": "B070",
+              "Value": false,
+              "Comment": "BilletCallingDelay,BilletLowTemp"
+            },
+            "B071": {
+              "Tag": "B071",
+              "Value": false,
+              "Comment": "BilletCallingDelay,CuttingQuantityOver"
+            },
+            "B072": {
+              "Tag": "B072",
+              "Value": false,
+              "Comment": "BilletCallingDelay,CuttingLengthSensr\"On\""
+            },
+            "B073": {
+              "Tag": "B073",
+              "Value": false,
+              "Comment": "BilletCallingDelay,BilletInputDemand"
+            },
+            "B074": {
+              "Tag": "B074",
+              "Value": false,
+              "Comment": "BilletCallingDelay,BilletMeasuringTemp"
+            },
+            "B075": {
+              "Tag": "B075",
+              "Value": false,
+              "Comment": "BilletCallingDelay,BilletStopperInputRuning"
+            },
+            "B076": {
+              "Tag": "B076",
+              "Value": false,
+              "Comment": "BilletCallingDelay(Reserved)"
+            },
+            "B077": {
+              "Tag": "B077",
+              "Value": false,
+              "Comment": "BilletCallFail,ChipPressNotinAutomode"
+            },
+            "B078": {
+              "Tag": "B078",
+              "Value": false,
+              "Comment": "BilletCallFail,ChipPressOff"
+            },
+            "B079": {
+              "Tag": "B079",
+              "Value": false,
+              "Comment": "BilletCallingDelay(Reserved)"
+            },
+            "B07A": {
+              "Tag": "B07A",
+              "Value": false,
+              "Comment": "BilletCallingDelay(Reserved)"
+            },
+            "B07B": {
+              "Tag": "B07B",
+              "Value": false,
+              "Comment": "BilletCallingDelay(Reserved)"
+            },
+            "B07C": {
+              "Tag": "B07C",
+              "Value": false,
+              "Comment": "BilletCallingDelay(Reserved)"
+            },
+            "B07D": {
+              "Tag": "B07D",
+              "Value": false,
+              "Comment": "BilletCallingDelay(Reserved)"
+            },
+            "B07E": {
+              "Tag": "B07E",
+              "Value": false,
+              "Comment": "BilletCallingDelay(Reserved)"
+            },
+            "B07F": {
+              "Tag": "B07F",
+              "Value": false,
+              "Comment": "BilletCallingDelay(Reserved)"
             }
           }
         }
       }
-    },
-    "PLC_AGING": {
+    }
+  }, 
+	{
+		"id": 2,
       "PLC_isConnected": true,
       "PLC_infor": {
-        "name": "AGING",
+        "name": "PLC_AGING",
         "ip": "192.168.0.10",
         "port": 8000,
-        "StationInfo": [ "OP20", "OP30", "OP40" ]
+        "StationInfo": [
+          "OP20",
+          "OP30",
+          "OP40"
+        ]
       },
       "Data": {
         "SETUP": {
@@ -1125,5 +2362,5 @@
         }
       }
     }
-  }
+	]
 }
