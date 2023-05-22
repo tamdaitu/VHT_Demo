@@ -7867,1662 +7867,345 @@
       }
     }
   },
-  {
-  "id": 2,
+{
+  "id": 3,
   "Machine": {
     "Status": "Manual",
     "ErrorCode": "",
     "DataRT": {
       "PLC_isConnected": true,
-      "DataTime": "2023-05-22 13:40:25.907",
+      "DataTime": "2023-05-22 13:43:52.647",
       "PLC_infor": {
-        "name": "EXTRUSION",
-        "ip": "192.168.0.20",
+        "name": "HANDYEQIPMENT",
+        "ip": "192.168.0.130",
         "port": 8000,
         "StationInfo": [
-          "Extrusion"
+          "HANDYEQIPMENT Line6"
         ]
       },
       "Data": {
         "DataBit": {
-          "CONTROL_POWER_ON": {
-            "Tag": "X2A",
-            "Value": true,
-            "Comment": "Control Power ON"
-          },
-          "P3_FILTER_PS": {
-            "Tag": "X035",
-            "Value": false,
-            "Comment": "P3_FILTER_PS"
-          },
-          "AUX_FILTER": {
-            "Tag": "X036",
-            "Value": false,
-            "Comment": "AUX_FILTER"
-          },
-          "COOLING_FILTER": {
-            "Tag": "X037",
-            "Value": false,
-            "Comment": "COOLING_FILTER"
-          },
-          "PREFILL_OPEN_LS": {
-            "Tag": "X03E",
-            "Value": false,
-            "Comment": "PREFILL_OPEN_LS"
-          },
-          "PREFILL_CLOSE_LS": {
-            "Tag": "X03F",
-            "Value": false,
-            "Comment": "PREFILL_CLOSE_LS"
-          },
-          "LOADER_FWD_END": {
-            "Tag": "X306",
-            "Value": false,
-            "Comment": "LOADER_FWD_END"
-          },
-          "LOADER_ST_BY": {
-            "Tag": "X307",
-            "Value": false,
-            "Comment": "LOADER_ST_BY"
-          },
-          "LOADER_BWD_END": {
-            "Tag": "X309",
-            "Value": false,
-            "Comment": "LOADER_BWD_END"
-          },
-          "MAIN_RET_END_LS": {
-            "Tag": "X340",
-            "Value": false,
-            "Comment": "MAIN_RET_END_LS"
-          },
-          "MAIN_FWD_END_LS": {
-            "Tag": "X341",
-            "Value": false,
-            "Comment": "MAIN_FWD_END_LS"
-          },
-          "CONT_RET_L_LS": {
-            "Tag": "X342",
-            "Value": false,
-            "Comment": "CONT_RET_L_LS"
-          },
-          "CONT_CLOSE_LS": {
-            "Tag": "X343",
-            "Value": false,
-            "Comment": "CONT_CLOSE_LS"
-          },
-          "SHEAR_UP_END_LS": {
-            "Tag": "X344",
-            "Value": false,
-            "Comment": "SHEAR_UP_END_LS"
-          },
-          "SHEAR_UP_SL_LS": {
-            "Tag": "X345",
-            "Value": false,
-            "Comment": "SHEAR_UP_SL_LS"
-          },
-          "SHEAR_LD_IN_POS": {
-            "Tag": "X346",
-            "Value": false,
-            "Comment": "SHEAR_LD_IN_POS"
-          },
-          "SHEAR_DN_SL_LS": {
-            "Tag": "X347",
-            "Value": false,
-            "Comment": "SHEAR_DN_SL_LS"
-          },
-          "SHEAR_DN_END_LS": {
-            "Tag": "X348",
-            "Value": false,
-            "Comment": "SHEAR_DN_END_LS"
-          },
-          "DIES_IN_END_LS": {
-            "Tag": "X349",
-            "Value": false,
-            "Comment": "DIES_IN_END_LS"
-          },
-          "DIES_IN_SL_LS": {
-            "Tag": "X34A",
-            "Value": false,
-            "Comment": "DIES_IN_SL_LS"
-          },
-          "DUMMY_DIES_LS": {
-            "Tag": "X34B",
-            "Value": false,
-            "Comment": "DUMMY_DIES_LS"
-          },
-          "DIES_OUT_SL_LS": {
-            "Tag": "X34C",
-            "Value": false,
-            "Comment": "DIES_OUT_SL_LS"
-          },
-          "DIES_OUT_END_LS": {
-            "Tag": "X34D",
-            "Value": false,
-            "Comment": "DIES_OUT_END_LS"
-          },
-          "CLMAP_UP_LS": {
-            "Tag": "X34E",
-            "Value": false,
-            "Comment": "CLMAP_UP_LS"
-          },
-          "CLAMP_DN_LS": {
-            "Tag": "X34F",
-            "Value": false,
-            "Comment": "CLAMP_DN_LS"
-          },
-          "DIES_CHANGE_LEFT_LS": {
-            "Tag": "X350",
-            "Value": false,
-            "Comment": "DIES_CHANGE_LEFT_LS"
-          },
-          "DIES_CHANGE_RIGHT_LS": {
-            "Tag": "X351",
-            "Value": false,
-            "Comment": "DIES_CHANGE_RIGHT_LS"
-          },
-          "HAMMER_UP_LS": {
-            "Tag": "X396",
-            "Value": false,
-            "Comment": "HAMMER_UP_LS"
-          },
-          "HAMMER_DN_LS": {
-            "Tag": "X397",
-            "Value": false,
-            "Comment": "HAMMER_DN_LS"
-          },
-          "PUMP_3_ON": {
-            "Tag": "Y001",
-            "Value": false,
-            "Comment": "PUMP_3_ON"
-          },
-          "PUMP_1_ON": {
-            "Tag": "Y041",
-            "Value": false,
-            "Comment": "PUMP_1_ON"
-          },
-          "PUMP_2_ON": {
-            "Tag": "Y044",
-            "Value": false,
-            "Comment": "PUMP_2_ON"
-          },
-          "AUX_PUMP_ON": {
-            "Tag": "Y047",
-            "Value": false,
-            "Comment": "AUX_PUMP_ON"
-          },
-          "Y049": {
-            "Tag": "Y049",
-            "Value": false,
-            "Comment": "Y049"
-          },
-          "CONT_RET_END_SLOW_SPEED": {
-            "Tag": "Y04D",
-            "Value": false,
-            "Comment": "CONT_RET_END_SLOW_SPEED"
-          },
-          "BURP_OFF_ON": {
-            "Tag": "L1000",
-            "Value": false,
-            "Comment": "BURP_OFF_ON"
-          },
-          "SPEED_MODE": {
-            "Tag": "L1001",
-            "Value": false,
-            "Comment": "SPEED_MODE"
-          },
-          "BL_UNLIMIT": {
-            "Tag": "L1004",
-            "Value": false,
-            "Comment": "BL_UNLIMIT"
-          },
-          "PULLER_INTERLOCK": {
-            "Tag": "L1005",
-            "Value": false,
-            "Comment": "PULLER_INTERLOCK"
-          },
-          "ST_BY_TEACH_LAMP": {
-            "Tag": "L2040",
-            "Value": false,
-            "Comment": "ST_BY_TEACH_LAMP"
-          },
-          "FWD_TEACH_LAMP": {
-            "Tag": "L2041",
-            "Value": false,
-            "Comment": "FWD_TEACH_LAMP"
-          },
-          "BWD_TEACH_LAMP": {
-            "Tag": "L2042",
-            "Value": false,
-            "Comment": "BWD_TEACH_LAMP"
-          },
-          "TEACH_FINISH_LAMP": {
-            "Tag": "L2044",
-            "Value": false,
-            "Comment": "TEACH_FINISH_LAMP"
-          },
-          "PUMP_1_PRESS_ADJUST": {
-            "Tag": "M0001",
-            "Value": false,
-            "Comment": "PUMP_1_PRESS_ADJUST"
-          },
-          "PUMP_2_PRESS_ADJUST": {
-            "Tag": "M0002",
-            "Value": false,
-            "Comment": "PUMP_2_PRESS_ADJUST"
-          },
-          "PUMP_3_PRESS_ADJUST": {
-            "Tag": "M0003",
-            "Value": false,
-            "Comment": "PUMP_3_PRESS_ADJUST"
-          },
-          "END_DECEL_ON": {
-            "Tag": "M0004",
-            "Value": false,
-            "Comment": "END_DECEL_ON"
-          },
-          "COOLING_AUTO": {
-            "Tag": "M0005",
-            "Value": false,
-            "Comment": "COOLING_AUTO"
-          },
-          "AUX_RELIEF_ADJUST": {
-            "Tag": "M0006",
-            "Value": false,
-            "Comment": "AUX_RELIEF_ADJUST"
-          },
-          "DUMMY_CASSETTE": {
-            "Tag": "M0007",
-            "Value": false,
-            "Comment": "DUMMY_CASSETTE"
-          },
-          "SEALING_PRESS_ADJUST": {
-            "Tag": "M0008",
-            "Value": false,
-            "Comment": "SEALING_PRESS_ADJUST"
-          },
-          "NO_LOAD_TEST": {
-            "Tag": "M0009",
-            "Value": false,
-            "Comment": "NO_LOAD_TEST"
-          },
-          "BUTT_AUTO": {
-            "Tag": "M0010",
-            "Value": false,
-            "Comment": "BUTT_AUTO"
-          },
-          "LOADER_ORIGIN_PB": {
-            "Tag": "M0011",
-            "Value": false,
-            "Comment": "LOADER_ORIGIN_PB"
-          },
-          "LOADER_JOG_MODE": {
-            "Tag": "M0012",
-            "Value": false,
-            "Comment": "LOADER_JOG_MODE"
-          },
-          "LOADER_INTLOCK_OFF": {
-            "Tag": "M0013",
-            "Value": false,
-            "Comment": "LOADER_INTLOCK_OFF"
-          },
-          "BL_DATA_DELETE": {
-            "Tag": "M0015",
-            "Value": false,
-            "Comment": "BL_DATA_DELETE"
-          },
-          "BL_FORCE_IN": {
-            "Tag": "M0016",
-            "Value": false,
-            "Comment": "BL_FORCE_IN"
-          },
-          "EXT_FINISH_TIMES_CHANGE": {
-            "Tag": "M0017",
-            "Value": false,
-            "Comment": "EXT_FINISH_TIMES_CHANGE"
-          },
-          "PILOT_PUMP_RUN": {
-            "Tag": "M0020",
-            "Value": false,
-            "Comment": "PILOT_PUMP_RUN"
-          },
-          "PILOT_PUMP_STOP": {
-            "Tag": "M0021",
-            "Value": false,
-            "Comment": "PILOT_PUMP_STOP"
-          },
-          "PUMP_1_RUN": {
-            "Tag": "M0022",
-            "Value": false,
-            "Comment": "PUMP_1_RUN"
-          },
-          "PUMP_1_STOP": {
-            "Tag": "M0023",
-            "Value": false,
-            "Comment": "PUMP_1_STOP"
-          },
-          "PUMP_2_RUN": {
-            "Tag": "M0024",
-            "Value": false,
-            "Comment": "PUMP_2_RUN"
-          },
-          "PUMP_2_STOP": {
-            "Tag": "M0025",
-            "Value": false,
-            "Comment": "PUMP_2_STOP"
-          },
-          "MAIN_0_TEACH": {
-            "Tag": "M0026",
-            "Value": false,
-            "Comment": "MAIN_0_TEACH"
-          },
-          "COMT_0_TEACH": {
-            "Tag": "M0027",
-            "Value": false,
-            "Comment": "COMT_0_TEACH"
-          },
-          "COOLING_PUMP_RUN": {
-            "Tag": "M0030",
-            "Value": false,
-            "Comment": "COOLING_PUMP_RUN"
-          },
-          "COOLING_PUMP_STOP": {
-            "Tag": "M0031",
-            "Value": false,
-            "Comment": "COOLING_PUMP_STOP"
-          },
-          "LOADER_TEACH_MODE": {
-            "Tag": "M0035",
-            "Value": false,
-            "Comment": "LOADER_TEACH_MODE"
-          },
-          "LOADER_ST_BY_POS_PB": {
-            "Tag": "M0036",
-            "Value": false,
-            "Comment": "LOADER_ST_BY_POS_PB"
-          },
-          "LD_FWD_TEACH_PB": {
-            "Tag": "M0038",
-            "Value": false,
-            "Comment": "LD_FWD_TEACH_PB"
-          },
-          "LOADER_BWD_TEACH_PB": {
-            "Tag": "M0039",
-            "Value": false,
-            "Comment": "LOADER_BWD_TEACH_PB"
-          },
-          "LOADER_TEACH_FINISH": {
-            "Tag": "M0040",
-            "Value": false,
-            "Comment": "LOADER_TEACH_FINISH"
-          },
-          "PUMP_AUTO_START": {
-            "Tag": "M0044",
-            "Value": false,
-            "Comment": "PUMP_AUTO_START"
-          },
-          "PUMP_AUTO_STOP": {
-            "Tag": "M0045",
-            "Value": false,
-            "Comment": "PUMP_AUTO_STOP"
-          },
-          "PUMP_3_RUN": {
-            "Tag": "M0046",
-            "Value": false,
-            "Comment": "PUMP_3_RUN"
-          },
-          "PUMP_3_STOP": {
-            "Tag": "M0047",
-            "Value": false,
-            "Comment": "PUMP_3_STOP"
-          },
-          "AUTO_LAMP": {
-            "Tag": "M0053",
-            "Value": false,
-            "Comment": "AUTO_LAMP"
-          },
-          "ONE_CYCLE_LAMP": {
-            "Tag": "M0054",
-            "Value": false,
-            "Comment": "ONE_CYCLE_LAMP"
-          },
-          "MAN_LAMP": {
-            "Tag": "M0055",
-            "Value": false,
-            "Comment": "MAN_LAMP"
-          },
-          "EXT_FORCE_STOP": {
-            "Tag": "M0057",
-            "Value": false,
-            "Comment": "EXT_FORCE_STOP"
-          },
-          "SPEED_DN_PB": {
-            "Tag": "M0060",
-            "Value": false,
-            "Comment": "SPEED_DN_PB"
-          },
-          "SPEED_UP_PB": {
-            "Tag": "M0061",
-            "Value": false,
-            "Comment": "SPEED_UP_PB"
-          },
-          "TOTAL_TON_RESET_PB": {
-            "Tag": "M0065",
-            "Value": false,
-            "Comment": "TOTAL_TON_RESET_PB"
-          },
-          "DAY_TON_RESET_PB": {
-            "Tag": "M0066",
-            "Value": false,
-            "Comment": "DAY_TON_RESET_PB"
-          },
-          "EXTRUDING_SIG": {
-            "Tag": "M0073",
-            "Value": false,
-            "Comment": "EXTRUDING_SIG"
-          },
-          "MOP_EMG_LAMP": {
-            "Tag": "M0076",
-            "Value": false,
-            "Comment": "MOP_EMG_LAMP"
-          },
-          "PULLER_RDY_LAMP": {
-            "Tag": "M0078",
-            "Value": false,
-            "Comment": "PULLER_RDY_LAMP"
-          },
-          "PULLER_END_LAMP": {
-            "Tag": "M0079",
-            "Value": false,
-            "Comment": "PULLER_END_LAMP"
-          },
-          "AUX_PUMP_RUN": {
-            "Tag": "M0088",
-            "Value": false,
-            "Comment": "AUX_PUMP_RUN"
-          },
-          "AUX_PUMP_STOP": {
-            "Tag": "M0089",
-            "Value": false,
-            "Comment": "AUX_PUMP_STOP"
-          },
-          "PUMP_AUTO_ON_LAMP": {
-            "Tag": "M0100",
-            "Value": false,
-            "Comment": "PUMP_AUTO_ON_LAMP"
-          },
-          "BL_RESULT_RESET_PB": {
-            "Tag": "M0104",
-            "Value": false,
-            "Comment": "BL_RESULT_RESET_PB"
-          },
-          "PAUSE_LAMP": {
-            "Tag": "M0273",
-            "Value": false,
-            "Comment": "PAUSE_LAMP"
-          },
-          "DIES_APPLY_SW": {
-            "Tag": "M1103",
-            "Value": false,
-            "Comment": "DIES_APPLY_SW"
-          }
-        },
-        "ALARM": {
-          "IO_UNIT_COM_TROUBLE": {
-            "Tag": "M800",
-            "Value": false,
-            "Comment": "I/O UNIT COM. TROUBLE."
-          },
-          "EMG": {
-            "Tag": "M801",
-            "Value": false,
-            "Comment": "EMG"
-          },
-          "MAIN_Position_Set_Error": {
-            "Tag": "M802",
-            "Value": false,
-            "Comment": "MAIN Position Set Error."
-          },
-          "_PUMP_AMP_FAULT1": {
-            "Tag": "M803",
-            "Value": false,
-            "Comment": "#1 PUMP AMP FAULT."
-          },
-          "_PUMP_AMP_FAULT3": {
-            "Tag": "M804",
-            "Value": false,
-            "Comment": "#3 PUMP AMP FAULT."
-          },
-          "_PUMP_AMP_FAULT2": {
-            "Tag": "M805",
-            "Value": false,
-            "Comment": "#2 PUMP AMP FAULT."
-          },
-          "_Pump_Overload1": {
-            "Tag": "M806",
-            "Value": false,
-            "Comment": "#1 Pump Overload."
-          },
-          "_Pump_Overload2": {
-            "Tag": "M807",
-            "Value": false,
-            "Comment": "#2 Pump Overload."
-          },
-          "_Pump_Overload3": {
-            "Tag": "M808",
-            "Value": false,
-            "Comment": "#3 Pump Overload."
-          },
-          "Cooling_Pump_Overload": {
-            "Tag": "M809",
-            "Value": false,
-            "Comment": "Cooling Pump Overload."
-          },
-          "Loader_Working_Time_Exceed_Sensor_Fault": {
-            "Tag": "M810",
-            "Value": false,
-            "Comment": "Loader Working Time Exceed,Sensor Fault."
-          },
-          "Main_Position_Sensor_Fault": {
-            "Tag": "M811",
-            "Value": false,
-            "Comment": "Main Position Sensor Fault."
-          },
-          "COOLING_PUMP_OVERLOAD": {
-            "Tag": "M812",
-            "Value": false,
-            "Comment": "COOLING PUMP OVERLOAD."
-          },
-          "Container_SCR_FAULT": {
-            "Tag": "M813",
-            "Value": false,
-            "Comment": "Container SCR FAULT."
-          },
-          "CONTAINER_OVERHEAT": {
-            "Tag": "M814",
-            "Value": false,
-            "Comment": "CONTAINER OVERHEAT."
-          },
-          "BUTT_CV_OVERLOAD": {
-            "Tag": "M815",
-            "Value": false,
-            "Comment": "BUTT CV OVERLOAD."
-          },
-          "PUMP_FILTER_CONTAMINATION2": {
-            "Tag": "M816",
-            "Value": false,
-            "Comment": "#2PUMP FILTER CONTAMINATION."
-          },
-          "PUMP_FILTER_CONTAMINATION1": {
-            "Tag": "M817",
-            "Value": false,
-            "Comment": "#1PUMP FILTER CONTAMINATION."
-          },
-          "LOADER_SERVO_ALARM": {
-            "Tag": "M818",
-            "Value": false,
-            "Comment": "LOADER SERVO ALARM."
-          },
-          "OIL_TEMPERATURE_HIGH": {
-            "Tag": "M819",
-            "Value": false,
-            "Comment": "OIL TEMPERATURE HIGH."
-          },
-          "SHEAR_TROUBLE": {
-            "Tag": "M820",
-            "Value": false,
-            "Comment": "SHEAR TROUBLE."
-          },
-          "PUMP_FILTER_CONTAMINATION3": {
-            "Tag": "M821",
-            "Value": false,
-            "Comment": "#3PUMP FILTER CONTAMINATION."
-          },
-          "DIES_SLIDE_TROUBLE": {
-            "Tag": "M822",
-            "Value": false,
-            "Comment": "DIES SLIDE TROUBLE."
-          },
-          "DIES_CHANGE_TROUBLE": {
-            "Tag": "M824",
-            "Value": false,
-            "Comment": "DIES CHANGE TROUBLE."
-          },
-          "CONTAINER_TROUBLE": {
-            "Tag": "M826",
-            "Value": false,
-            "Comment": "CONTAINER TROUBLE."
-          },
-          "BUTT_HAMMER_TROUBLE": {
-            "Tag": "M827",
-            "Value": false,
-            "Comment": "BUTT HAMMER TROUBLE."
-          },
-          "PREFILL_TROUBLE": {
-            "Tag": "M828",
-            "Value": false,
-            "Comment": "PREFILL TROUBLE."
-          },
-          "Butt_hammer_movement_abnormality": {
-            "Tag": "M829",
-            "Value": false,
-            "Comment": "Butt hammer movement abnormality"
-          },
-          "DIES_CLAMP_TROUBLE": {
-            "Tag": "M830",
-            "Value": false,
-            "Comment": "DIES CLAMP TROUBLE."
-          },
-          "LOADER_TROUBLE": {
-            "Tag": "M831",
-            "Value": false,
-            "Comment": "LOADER TROUBLE."
-          },
-          "BILLET_Clamp_Trouble": {
-            "Tag": "M832",
-            "Value": false,
-            "Comment": "BILLET Clamp Trouble."
-          },
-          "LOADER_STOP_POSITION_FAULT": {
-            "Tag": "M833",
-            "Value": false,
-            "Comment": "LOADER STOP POSITION FAULT."
-          },
-          "Main_Forward_END_SENSOR_FAULT": {
-            "Tag": "M834",
-            "Value": false,
-            "Comment": "Main Forward END SENSOR FAULT."
-          },
-          "BILLET_CLAMP_FINISH_EXCEED_TIME": {
-            "Tag": "M835",
-            "Value": false,
-            "Comment": "BILLET CLAMP FINISH EXCEED TIME."
-          },
-          "DIES_CHANGE_POSITION_FAULT": {
-            "Tag": "M836",
-            "Value": false,
-            "Comment": "DIES CHANGE POSITION FAULT."
-          },
-          "PLC_Battery_Voltage_Low": {
-            "Tag": "M837",
-            "Value": false,
-            "Comment": "PLC Battery Voltage Low."
-          },
-          "BILLET_CLAMP_SIDE_OVER_TRAVEL": {
-            "Tag": "M838",
-            "Value": false,
-            "Comment": "BILLET CLAMP SIDE OVER TRAVEL."
-          },
-          "SEALING_PRESSURE_FAULT": {
-            "Tag": "M839",
+          "Ready_For_Puller_Operation_PB": {
+            "Tag": "X200",
             "Value": false,
-            "Comment": "SEALING PRESSURE FAULT."
+            "Comment": "Ready_For_Puller_Operation_PB"
           },
-          "LOADER_ORIGIN_EXCEED_TIME": {
-            "Tag": "M840",
+          "EXTRUDER_PERMIT": {
+            "Tag": "M990",
             "Value": false,
-            "Comment": "LOADER ORIGIN EXCEED TIME."
+            "Comment": "EXTRUDER PERMIT"
           },
-          "Abnormal_completion_of_origin_re": {
-            "Tag": "M841",
+          "LENGTH_REACHED": {
+            "Tag": "M991",
             "Value": false,
-            "Comment": "Abnormal completion of origin re"
+            "Comment": "LENGTH REACHED"
           },
-          "BILLET_CLAMPING_CONTAINER_ADVANCE": {
-            "Tag": "M842",
+          "EXTRUSION_START": {
+            "Tag": "M992",
             "Value": false,
-            "Comment": "BILLET CLAMPING CONTAINER ADVANCE."
+            "Comment": "EXTRUSION START"
           },
-          "BILLET_STOPPER_SENSOR_FAULT": {
-            "Tag": "M843",
+          "EXTRUSION_COMPLETE": {
+            "Tag": "M993",
             "Value": false,
-            "Comment": "BILLET STOPPER SENSOR FAULT."
+            "Comment": "EXTRUSION COMPLETE"
           },
-          "BILLET_FEEDER_INVERTER_ALARM": {
-            "Tag": "M844",
+          "SENSOR_CHECK": {
+            "Tag": "B2D",
             "Value": false,
-            "Comment": "BILLET FEEDER INVERTER ALARM."
+            "Comment": "SENSOR CHECK"
           },
-          "AUXILIARY_PUMP_OVERLOAD": {
-            "Tag": "M845",
+          "Puller_clamp_early_open": {
+            "Tag": "M118",
             "Value": false,
-            "Comment": "AUXILIARY PUMP OVERLOAD."
+            "Comment": "Puller clamp early open"
           },
-          "LOADER_HOLDER_OVERLOAD": {
-            "Tag": "M846",
+          "PULLER_TORQUE_": {
+            "Tag": "M302",
             "Value": false,
-            "Comment": "LOADER HOLDER OVERLOAD."
+            "Comment": "PULLER TORQUE -"
           },
-          "HOLDER_ENCODER_FAULT": {
-            "Tag": "M847",
+          "Alarm_reset": {
+            "Tag": "M959",
             "Value": false,
-            "Comment": "HOLDER ENCODER FAULT."
+            "Comment": "Alarm reset"
           },
-          "FEEDER_ENCODER_FAULT": {
-            "Tag": "M848",
+          "INITIAL_CUTTER_AUTO_MOVEMENT_Start": {
+            "Tag": "M764",
             "Value": false,
-            "Comment": "FEEDER ENCODER FAULT."
+            "Comment": "INITIAL CUTTER AUTO MOVEMENT Start"
           },
-          "STEM_LINEAR_SENSOR_FAULT": {
-            "Tag": "M849",
+          "INITIAL_CUTTER_AUTO_MOVEMENT_Stop": {
+            "Tag": "L1042",
             "Value": false,
-            "Comment": "STEM LINEAR SENSOR FAULT."
+            "Comment": "INITIAL CUTTER AUTO MOVEMENT Stop"
           },
-          "CONTAINER_LINEAR_SENSOR_FAULT": {
-            "Tag": "M850",
+          "Top_Mist_ON_OFF": {
+            "Tag": "M1012",
             "Value": false,
-            "Comment": "CONTAINER LINEAR SENSOR FAULT."
+            "Comment": "Top Mist ON/OFF"
           },
-          "FEEDER_INV_ALARM": {
-            "Tag": "M851",
+          "Top_Spray_ON_OFF": {
+            "Tag": "M1022",
             "Value": false,
-            "Comment": "FEEDER INV ALARM"
+            "Comment": "Top Spray ON/OFF"
           },
-          "COOLING_PUMP_FILTER_CONTAMINATION": {
-            "Tag": "M852",
+          "Air_clean_ON_OFF": {
+            "Tag": "M1031",
             "Value": false,
-            "Comment": "COOLING PUMP FILTER CONTAMINATION."
+            "Comment": "Air clean ON/OFF"
           },
-          "Auxiliary_Pump_Filter_Contamination": {
-            "Tag": "M853",
+          "Bottom_Mist_ON_OFF": {
+            "Tag": "M1052",
             "Value": false,
-            "Comment": "Auxiliary Pump Filter Contamination."
+            "Comment": "Bottom Mist ON/OFF"
           },
-          "LOADER_FWD_OVER_TRAVEL": {
-            "Tag": "M854",
+          "Bottom_Spray_ON_OFF": {
+            "Tag": "M1042",
             "Value": false,
-            "Comment": "LOADER FWD OVER TRAVEL."
+            "Comment": "Bottom Spray ON/OFF"
           },
-          "LOADER_BWD_OVER_TRAVEL": {
-            "Tag": "M855",
+          "Run_Out_Top_Fans_1_": {
+            "Tag": "Y17F",
             "Value": false,
-            "Comment": "LOADER BWD OVER TRAVEL."
+            "Comment": "Run-Out Top Fans 1 "
           },
-          "COOLING_WATER_MOV_FAULT": {
-            "Tag": "M856",
+          "Run_Out_Top_Fans_2": {
+            "Tag": "Y180",
             "Value": false,
-            "Comment": "COOLING WATER MOV FAULT."
+            "Comment": "Run-Out Top Fans 2"
           },
-          "Minimum_billet_length": {
-            "Tag": "M857",
+          "Run_Out_Top_Fans_3": {
+            "Tag": "Y181",
             "Value": false,
-            "Comment": "Minimum billet length"
+            "Comment": "Run-Out Top Fans 3"
           },
-          "Billet_length_exceeded": {
-            "Tag": "M858",
+          "Run_Out_Top_Fans_4": {
+            "Tag": "Y182",
             "Value": false,
-            "Comment": "Billet length exceeded"
+            "Comment": "Run-Out Top Fans 4"
           },
-          "BILLET_TRANSFER_TROUBLE": {
-            "Tag": "M860",
+          "Run_Out_Top_Fans_5": {
+            "Tag": "Y183",
             "Value": false,
-            "Comment": "BILLET TRANSFER TROUBLE."
+            "Comment": "Run-Out Top Fans 5"
           },
-          "BILLET_FEEDER_TROUBLE": {
-            "Tag": "M862",
+          "Run_Out_Top_Fans_6": {
+            "Tag": "y184",
             "Value": false,
-            "Comment": "BILLET FEEDER TROUBLE."
+            "Comment": "Run-Out Top Fans 6"
           },
-          "LOADER_HOLDER_TROUBLE": {
-            "Tag": "M864",
+          "Run_Out_Top_Fans_OFF": {
+            "Tag": "M787",
             "Value": false,
-            "Comment": "LOADER HOLDER TROUBLE."
+            "Comment": "Run-Out Top Fans OFF"
           },
-          "LOADER_HOLDER_POS_BILLET_LENGHT_MISMATCH": {
-            "Tag": "M866",
+          "Run_Out_Bottom_Fans_1": {
+            "Tag": "Y108",
             "Value": false,
-            "Comment": "LOADER HOLDER POS. & BILLET LENGHT MISMATCH."
+            "Comment": "Run-Out Bottom Fans 1"
           },
-          "CONTAINER_AND_LOADER_COLLISION_SENSING": {
-            "Tag": "M868",
+          "Run_Out_Bottom_Fans2": {
+            "Tag": "Y109",
             "Value": false,
-            "Comment": "CONTAINER AND LOADER COLLISION SENSING"
+            "Comment": "Run-Out Bottom Fans2"
           },
-          "LOADER_CONTAINER_SIDE_COLLISION_DANGER": {
-            "Tag": "M869",
+          "Run_Out_Bottom_Fans_3": {
+            "Tag": "Y10A",
             "Value": false,
-            "Comment": "LOADER & CONTAINER,SIDE COLLISION DANGER."
+            "Comment": "Run-Out Bottom Fans 3"
           },
-          "OIL_LEVEL_LOW": {
-            "Tag": "M870",
+          "Run_Out_Bottom_Fans_4": {
+            "Tag": "Y10B",
             "Value": false,
-            "Comment": "OIL LEVEL LOW."
+            "Comment": "Run-Out Bottom Fans 4"
           },
-          "OIL_LEVEL_LOW_LOW": {
-            "Tag": "M871",
+          "Run_Out_Bottom_Fans_5": {
+            "Tag": "Y10C",
             "Value": false,
-            "Comment": "OIL LEVEL LOW LOW."
+            "Comment": "Run-Out Bottom Fans 5"
           },
-          "LOADER_COLLISION_LIMIT_FAULT": {
-            "Tag": "M872",
+          "Run_Out_Bottom_Fans_OFF": {
+            "Tag": "M783",
             "Value": false,
-            "Comment": "LOADER COLLISION LIMIT FAULT."
+            "Comment": "Run-Out Bottom Fans OFF"
           },
-          "LOADER_ORIGIN_START_POSITION_FAULT": {
-            "Tag": "M873",
+          "Cooling_C_V_Fan_1_1": {
+            "Tag": "Y170",
             "Value": false,
-            "Comment": "LOADER ORIGIN START POSITION FAULT."
+            "Comment": "Cooling C/V Fan #1.1"
           },
-          "CONT_TROUBLE_POS": {
-            "Tag": "M874",
+          "Cooling_C_V_Fan_1_2": {
+            "Tag": "Y171",
             "Value": false,
-            "Comment": "CONT. TROUBLE POS."
+            "Comment": "Cooling C/V Fan #1.2"
           },
-          "SEALING_FILTER_CONTAMINATION": {
-            "Tag": "M877",
+          "Cooling_C_V_Fan_1_3": {
+            "Tag": "Y172",
             "Value": false,
-            "Comment": "SEALING FILTER CONTAMINATION."
+            "Comment": "Cooling C/V Fan #1.3"
           },
-          "PILOT_FILTER_CONTAMINATION": {
-            "Tag": "M878",
+          "Cooling_C_V_Fan_1_4": {
+            "Tag": "Y173",
             "Value": false,
-            "Comment": "PILOT FILTER CONTAMINATION."
+            "Comment": "Cooling C/V Fan #1.4"
           },
-          "EXT_PUMPNot_All_RUN": {
-            "Tag": "M912",
+          "Cooling_C_V_Fan_1_5": {
+            "Tag": "Y174",
             "Value": false,
-            "Comment": "EXT PUMPNot All RUN"
+            "Comment": "Cooling C/V Fan #1.5"
           },
-          "EXT_Target_Qty_Complete": {
-            "Tag": "M913",
+          "Cooling_C_V_Fan_2_1": {
+            "Tag": "Y175",
             "Value": false,
-            "Comment": "EXT    Target  Qty    Complete"
+            "Comment": "Cooling C/V Fan #2.1"
           },
-          "LD_NO_EXT_AutoStart_POS": {
-            "Tag": "M917",
+          "Cooling_C_V_Fan_2_2": {
+            "Tag": "Y176",
             "Value": false,
-            "Comment": "LD NO   EXT AutoStart   POS."
+            "Comment": "Cooling C/V Fan #2.2"
           },
-          "LD_ADV_POS_Warning": {
-            "Tag": "M918",
+          "Cooling_C_V_Fan_2_3": {
+            "Tag": "Y177",
             "Value": false,
-            "Comment": "LD ADV  POS.    Warning"
+            "Comment": "Cooling C/V Fan #2.3"
           },
-          "LD_NO_RET_POSWarning": {
-            "Tag": "M919",
+          "Cooling_C_V_Fan_2_4": {
+            "Tag": "Y178",
             "Value": false,
-            "Comment": "LD NO   RET POS.Warning"
+            "Comment": "Cooling C/V Fan #2.4"
           },
-          "Holder_Orign_Request": {
-            "Tag": "M920",
+          "Cooling_C_V_Fan_2_5": {
+            "Tag": "Y179",
             "Value": false,
-            "Comment": "Holder  Orign   Request"
+            "Comment": "Cooling C/V Fan #2.5"
           },
-          "Dies_NO_IN_POS_Warning": {
-            "Tag": "M921",
+          "Cooling_C_V_Fan_OFF": {
+            "Tag": "M785",
             "Value": false,
-            "Comment": "Dies NO IN POS. Warning"
+            "Comment": "Cooling C/V Fan OFF"
           }
         },
         "DataWord": {
-          "MAX_EXT_SPEED": {
-            "Tag": "D0000",
-            "Value": 0,
-            "Comment": "MAX_EXT_SPEED"
-          },
-          "MAIN_RET_END_POS": {
-            "Tag": "D0001",
-            "Value": 0,
-            "Comment": "MAIN_RET_END_POS"
-          },
-          "EXT_SLOW_POS": {
-            "Tag": "D0002",
-            "Value": 0,
-            "Comment": "EXT_SLOW_POS"
-          },
-          "MAIN_RET_SLOW_POS": {
-            "Tag": "D0003",
-            "Value": 0,
-            "Comment": "MAIN_RET_SLOW_POS"
-          },
-          "BILLET_CLAMP_POS_ADJ": {
-            "Tag": "D0004",
-            "Value": 0,
-            "Comment": "BILLET_CLAMP_POS_ADJ"
-          },
-          "BUTT_MAX_LENGTH": {
-            "Tag": "D0005",
-            "Value": 0,
-            "Comment": "BUTT_MAX_LENGTH"
-          },
-          "BURP_RET_DIST": {
-            "Tag": "D0006",
-            "Value": 0,
-            "Comment": "BURP_RET_DIST"
-          },
-          "ST_BY_PRESS_SPEED": {
-            "Tag": "D0007",
-            "Value": 0,
-            "Comment": "ST_BY_PRESS_SPEED"
-          },
-          "BURP_COMPRESS_SPEED": {
-            "Tag": "D0008",
-            "Value": 0,
-            "Comment": "BURP_COMPRESS_SPEED"
-          },
-          "MAIN_FWD_L_SPEED": {
-            "Tag": "D0009",
-            "Value": 0,
-            "Comment": "MAIN_FWD_L_SPEED"
-          },
-          "MAIN_RET_H_SPEED": {
-            "Tag": "D0010",
-            "Value": 0,
-            "Comment": "MAIN_RET_H_SPEED"
-          },
-          "MAIN_RET_SLOW_SPEED": {
-            "Tag": "D0011",
-            "Value": 0,
-            "Comment": "MAIN_RET_SLOW_SPEED"
-          },
-          "BURP_SIDEADV_SPEED": {
-            "Tag": "D0012",
-            "Value": 0,
-            "Comment": "BURP_SIDEADV_SPEED"
-          },
-          "BILLET_CLAMP_PRESS": {
-            "Tag": "D0014",
-            "Value": 0,
-            "Comment": "BILLET_CLAMP_PRESS"
-          },
-          "CONT_SEALING_PRESS": {
-            "Tag": "D0015",
-            "Value": 0,
-            "Comment": "CONT_SEALING_PRESS"
-          },
-          "CONT_FWD_H_SPEED": {
-            "Tag": "D0016",
-            "Value": 0,
-            "Comment": "CONT_FWD_H_SPEED"
-          },
-          "CONT_FWD_L_SPEED": {
-            "Tag": "D0017",
-            "Value": 0,
-            "Comment": "CONT_FWD_L_SPEED"
-          },
-          "CONT_OPEN_L_SPEED": {
-            "Tag": "D0019",
-            "Value": 0,
-            "Comment": "CONT_OPEN_L_SPEED"
-          },
-          "SHEAR_UP_H_SPEED": {
-            "Tag": "D0020",
-            "Value": 0,
-            "Comment": "SHEAR_UP_H_SPEED"
-          },
-          "SHAER_UP_L_SPEED": {
-            "Tag": "D0021",
-            "Value": 0,
-            "Comment": "SHAER_UP_L_SPEED"
-          },
-          "SHAER_DN_H_SPEED": {
-            "Tag": "D0022",
-            "Value": 0,
-            "Comment": "SHAER_DN_H_SPEED"
-          },
-          "SHEAR_DN_L_SPEED": {
-            "Tag": "D0023",
-            "Value": 0,
-            "Comment": "SHEAR_DN_L_SPEED"
-          },
-          "SLIDE_IN_H_SPEED": {
-            "Tag": "D0024",
-            "Value": 0,
-            "Comment": "SLIDE_IN_H_SPEED"
-          },
-          "SLIDE_IN_L_SPEED": {
-            "Tag": "D0025",
-            "Value": 0,
-            "Comment": "SLIDE_IN_L_SPEED"
-          },
-          "SLIDE_OUT_H_SPEED": {
-            "Tag": "D0026",
-            "Value": 0,
-            "Comment": "SLIDE_OUT_H_SPEED"
-          },
-          "SLIDE_OUT_L_SPEED": {
-            "Tag": "D0027",
-            "Value": 0,
-            "Comment": "SLIDE_OUT_L_SPEED"
-          },
-          "EXT_SPEED_GAIN": {
-            "Tag": "D0028",
-            "Value": 0,
-            "Comment": "EXT_SPEED_GAIN"
-          },
-          "SEALING_PRESS_LOW_CHK": {
-            "Tag": "D0029",
-            "Value": 0,
-            "Comment": "SEALING_PRESS_LOW_CHK"
-          },
-          "P1RELIEFADJUST": {
-            "Tag": "D0030",
-            "Value": 0,
-            "Comment": "P1RELIEFADJUST"
-          },
-          "P2RELIEFADJUST": {
-            "Tag": "D0031",
-            "Value": 0,
-            "Comment": "P2RELIEFADJUST"
-          },
-          "AUXRELIEFADJUST": {
-            "Tag": "D0032",
-            "Value": 0,
-            "Comment": "AUXRELIEFADJUST"
-          },
-          "EXT_FIN_TIMES": {
-            "Tag": "D0035",
-            "Value": 0,
-            "Comment": "EXT_FIN_TIMES"
-          },
-          "EXT_FINISH_TIMES": {
-            "Tag": "D0035",
-            "Value": 0,
-            "Comment": "EXT_FINISH_TIMES"
-          },
-          "SLEEVE_CLEAN": {
-            "Tag": "D0036",
-            "Value": 0,
-            "Comment": "SLEEVE_CLEAN"
-          },
-          "SLEEVE_CLEAN_TIMES_SET": {
-            "Tag": "D0036",
-            "Value": 0,
-            "Comment": "SLEEVE_CLEAN_TIMES_SET"
-          },
-          "P": {
-            "Tag": "D0045",
-            "Value": 0,
-            "Comment": "P"
-          },
-          "I": {
-            "Tag": "D0046",
-            "Value": 0,
-            "Comment": "I"
-          },
-          "D": {
-            "Tag": "D0047",
-            "Value": 0,
-            "Comment": "D"
-          },
-          "PUMP1_PRESS_0": {
-            "Tag": "D0050",
-            "Value": 0,
-            "Comment": "PUMP1_PRESS_0"
-          },
-          "PUMP1_PRESS_1": {
-            "Tag": "D0051",
-            "Value": 0,
-            "Comment": "PUMP1_PRESS_1"
-          },
-          "PUMP1_PRESS_2": {
-            "Tag": "D0052",
-            "Value": 0,
-            "Comment": "PUMP1_PRESS_2"
-          },
-          "PUMP1_PRESS_3": {
-            "Tag": "D0053",
-            "Value": 0,
-            "Comment": "PUMP1_PRESS_3"
-          },
-          "PUMP1_PRESS_4": {
-            "Tag": "D0054",
-            "Value": 0,
-            "Comment": "PUMP1_PRESS_4"
-          },
-          "PUMP1_PRESS_5": {
-            "Tag": "D0055",
-            "Value": 0,
-            "Comment": "PUMP1_PRESS_5"
-          },
-          "PUMP1_PRESS_6": {
-            "Tag": "D0056",
-            "Value": 0,
-            "Comment": "PUMP1_PRESS_6"
-          },
-          "PUMP1_PRESS_7": {
-            "Tag": "D0057",
-            "Value": 0,
-            "Comment": "PUMP1_PRESS_7"
-          },
-          "PUMP1_PRESS_8": {
-            "Tag": "D0058",
-            "Value": 0,
-            "Comment": "PUMP1_PRESS_8"
-          },
-          "PUMP1_PRESS_9": {
-            "Tag": "D0059",
-            "Value": 0,
-            "Comment": "PUMP1_PRESS_9"
-          },
-          "EXTRUDING_SPEED": {
-            "Tag": "D0317",
-            "Value": 0,
-            "Comment": "EXTRUDING SPEED."
-          },
-          "EXT_INITIAL_SPEED_RE": {
-            "Tag": "D0061",
-            "Value": 0,
-            "Comment": "EXT_INITIAL_SPEED_RE"
-          },
-          "INT_EXT_TIME": {
-            "Tag": "D0062",
-            "Value": 0,
-            "Comment": "INT_EXT_TIME"
-          },
-          "END_EXT_SPEED_RE": {
-            "Tag": "D0063",
-            "Value": 0,
-            "Comment": "END_EXT_SPEED_RE"
-          },
-          "BURP_PRESS": {
-            "Tag": "D0064",
-            "Value": 0,
-            "Comment": "BURP_PRESS"
-          },
-          "EXT_SPEED": {
-            "Tag": "D0065",
-            "Value": 0,
-            "Comment": "EXT_SPEED"
-          },
-          "PUMP2_PRESS_H_0": {
-            "Tag": "D0070",
-            "Value": 0,
-            "Comment": "PUMP2_PRESS_H_0"
-          },
-          "PUMP2_PRESS_H_1": {
-            "Tag": "D0071",
-            "Value": 0,
-            "Comment": "PUMP2_PRESS_H_1"
-          },
-          "PUMP2_PRESS_H_2": {
-            "Tag": "D0072",
-            "Value": 0,
-            "Comment": "PUMP2_PRESS_H_2"
-          },
-          "PUMP2_PRESS_H_3": {
-            "Tag": "D0073",
-            "Value": 0,
-            "Comment": "PUMP2_PRESS_H_3"
-          },
-          "PUMP2_PRESS_H_4": {
-            "Tag": "D0074",
-            "Value": 0,
-            "Comment": "PUMP2_PRESS_H_4"
-          },
-          "PUMP2_PRESS_L_0": {
-            "Tag": "D0075",
-            "Value": 0,
-            "Comment": "PUMP2_PRESS_L_0"
-          },
-          "PUMP2_PRESS_L_1": {
-            "Tag": "D0076",
-            "Value": 0,
-            "Comment": "PUMP2_PRESS_L_1"
-          },
-          "PUMP2_PRESS_L_2": {
-            "Tag": "D0077",
-            "Value": 0,
-            "Comment": "PUMP2_PRESS_L_2"
-          },
-          "PUMP2_PRESS_L_3": {
-            "Tag": "D0078",
-            "Value": 0,
-            "Comment": "PUMP2_PRESS_L_3"
-          },
-          "PUMP2_PRESS_L_4": {
-            "Tag": "D0079",
-            "Value": 0,
-            "Comment": "PUMP2_PRESS_L_4"
-          },
-          "CONT_1ST_FWD_PRESS": {
-            "Tag": "D0080",
-            "Value": 0,
-            "Comment": "CONT_1ST_FWD_PRESS"
-          },
-          "CONT_FWD_SL_PRESS": {
-            "Tag": "D0081",
-            "Value": 0,
-            "Comment": "CONT_FWD_SL_PRESS"
-          },
-          "P2_CONT_BURP_ADV_PRESS": {
-            "Tag": "D0082",
-            "Value": 0,
-            "Comment": "P2_CONT_BURP_ADV_PRESS"
-          },
-          "P2_CONT_BURP_RE_PRESS": {
-            "Tag": "D0083",
-            "Value": 0,
-            "Comment": "P2_CONT_BURP_RE_PRESS"
-          },
-          "P2_CONT_1ST_BWD_PRESS": {
-            "Tag": "D0084",
-            "Value": 0,
-            "Comment": "P2_CONT_1ST_BWD_PRESS"
-          },
-          "P2_CONT_BWD_SLOW_PRESS": {
-            "Tag": "D0085",
-            "Value": 0,
-            "Comment": "P2_CONT_BWD_SLOW_PRESS"
-          },
-          "LOADERBWD_AND_CONTFWD": {
-            "Tag": "D0086",
-            "Value": 0,
-            "Comment": "LOADERBWD_AND_CONTFWD"
-          },
-          "EXT_FINISH_PRESS": {
-            "Tag": "D0087",
-            "Value": 0,
-            "Comment": "EXT_FINISH_PRESS"
-          },
-          "N_BT_1_CUT": {
-            "Tag": "D0090",
-            "Value": 0,
-            "Comment": "N_BT_1_CUT"
-          },
-          "N_1_CUT_DISP": {
-            "Tag": "D0091",
-            "Value": 0,
-            "Comment": "N_1_CUT_DISP"
-          },
-          "BL_CALL": {
-            "Tag": "D0092",
-            "Value": 0,
-            "Comment": "BL_CALL"
-          },
-          "BUTT_LENGTH": {
-            "Tag": "D0093",
-            "Value": 0,
-            "Comment": "BUTT_LENGTH"
-          },
-          "DAY_PRODUCT_TON": {
-            "Tag": "D0094",
-            "Value": 0,
-            "Comment": "DAY_PRODUCT_TON"
-          },
-          "TOTAL_PRODUCT_TON": {
-            "Tag": "D0095",
-            "Value": 0,
-            "Comment": "TOTAL_PRODUCT_TON"
-          },
-          "ST_BY_PRESS": {
-            "Tag": "D0098",
-            "Value": 0,
-            "Comment": "ST_BY_PRESS"
-          },
-          "RAM_SPEED_DISP_NUM": {
-            "Tag": "D0101",
-            "Value": 0,
-            "Comment": "RAM_SPEED_DISP_NUM"
-          },
-          "P3_PRESS_DISP": {
-            "Tag": "D0105",
-            "Value": 0,
-            "Comment": "P3_PRESS_DISP"
-          },
-          "OIL_LEVEL": {
-            "Tag": "D0107",
-            "Value": 0,
-            "Comment": "OIL_LEVEL"
-          },
-          "P_1_PRESS_DISP": {
-            "Tag": "D0112",
-            "Value": 0,
-            "Comment": "P_1_PRESS_DISP"
-          },
-          "P_2_PRESS_DISP": {
-            "Tag": "D0113",
-            "Value": 0,
-            "Comment": "P_2_PRESS_DISP"
-          },
-          "AUX_PRESS_DISP": {
-            "Tag": "D0114",
-            "Value": 0,
-            "Comment": "AUX_PRESS_DISP"
-          },
-          "AUX_P_PRESS_DISP": {
-            "Tag": "D0115",
-            "Value": 0,
-            "Comment": "AUX_P_PRESS_DISP"
-          },
-          "MAIN_PRESS_DISP": {
-            "Tag": "D0116",
-            "Value": 0,
-            "Comment": "MAIN_PRESS_DISP"
-          },
-          "SIDE_PRESS_DISP": {
-            "Tag": "D0117",
-            "Value": 0,
-            "Comment": "SIDE_PRESS_DISP"
-          },
-          "PILOT_PRESS_DISP": {
-            "Tag": "D0118",
-            "Value": 0,
-            "Comment": "PILOT_PRESS_DISP"
-          },
-          "SEALING_PRESS_DISP": {
-            "Tag": "D0119",
-            "Value": 0,
-            "Comment": "SEALING_PRESS_DISP"
-          },
-          "RAM_POS_DISP": {
-            "Tag": "D0124",
-            "Value": 0,
-            "Comment": "RAM_POS_DISP"
-          },
-          "CONT_POS_DISP": {
-            "Tag": "D0125",
-            "Value": 0,
-            "Comment": "CONT_POS_DISP"
-          },
-          "OIL_TEMP": {
-            "Tag": "D0126",
-            "Value": 0,
-            "Comment": "OIL_TEMP"
-          },
-          "RAM_POS_DISP_BAR": {
-            "Tag": "D0131",
-            "Value": 0,
-            "Comment": "RAM_POS_DISP_BAR"
-          },
-          "END_SLOW_TIME": {
-            "Tag": "D0135",
-            "Value": 0,
-            "Comment": "END_SLOW_TIME"
-          },
-          "VR_DISP": {
-            "Tag": "D0141",
-            "Value": 0,
-            "Comment": "VR_DISP"
-          },
-          "BILLET_LENGTH": {
-            "Tag": "D0151",
-            "Value": 0,
-            "Comment": "BILLET_LENGTH"
-          },
-          "CYCLE_TIME": {
-            "Tag": "D0160",
-            "Value": 0,
-            "Comment": "CYCLE_TIME"
-          },
-          "IDLE_TIME": {
-            "Tag": "D0161",
-            "Value": 0,
-            "Comment": "IDLE_TIME"
-          },
-          "BL_TARGET_QTY": {
-            "Tag": "D0162",
-            "Value": 0,
-            "Comment": "BL_TARGET_QTY"
-          },
-          "BL_RESULT_QTY": {
-            "Tag": "D0163",
-            "Value": 0,
-            "Comment": "BL_RESULT_QTY"
-          },
-          "PUMP1_RELIEF_PRESS": {
-            "Tag": "D0183",
-            "Value": 0,
-            "Comment": "PUMP1_RELIEF_PRESS"
-          },
-          "PUMP2_RELIEF_PRESS": {
-            "Tag": "D0184",
-            "Value": 0,
-            "Comment": "PUMP2_RELIEF_PRESS"
-          },
-          "PUMP3_RELIEF_PRESS": {
-            "Tag": "D0185",
-            "Value": 0,
-            "Comment": "PUMP3_RELIEF_PRESS"
-          },
-          "AUX_RELIEF_PRESS": {
-            "Tag": "D0190",
-            "Value": 0,
-            "Comment": "AUX_RELIEF_PRESS"
-          },
-          "AUX_CASSETTE_PRESS": {
-            "Tag": "D0191",
-            "Value": 0,
-            "Comment": "AUX_CASSETTE_PRESS"
-          },
-          "AUX_CLAMP_PRESS": {
-            "Tag": "D0192",
-            "Value": 0,
-            "Comment": "AUX_CLAMP_PRESS"
-          },
-          "AUX_PREFILL_PRESS": {
-            "Tag": "D0193",
-            "Value": 0,
-            "Comment": "AUX_PREFILL_PRESS"
-          },
-          "AUX_LOW_PRESS": {
-            "Tag": "D0197",
-            "Value": 0,
-            "Comment": "AUX_LOW_PRESS"
-          },
-          "AUX_PRESS_8": {
-            "Tag": "D0198",
-            "Value": 0,
-            "Comment": "AUX_PRESS_8"
-          },
-          "AUX_PRESS_9": {
-            "Tag": "D0199",
-            "Value": 0,
-            "Comment": "AUX_PRESS_9"
-          },
-          "PREFILL_CLOSE_PRESS": {
-            "Tag": "D0230",
-            "Value": 0,
-            "Comment": "PREFILL_CLOSE_PRESS"
-          },
-          "MAX_COPMRESS_PRESS": {
-            "Tag": "D0231",
-            "Value": 0,
-            "Comment": "MAX_COPMRESS_PRESS"
-          },
-          "PREVIOUS_BUTT_LEN": {
-            "Tag": "D0280",
-            "Value": 0,
-            "Comment": "PREVIOUS_BUTT_LEN"
-          },
-          "EXTRUSION_IN_BT_LEN": {
-            "Tag": "D0281",
-            "Value": 0,
-            "Comment": "EXTRUSION_IN_BT_LEN"
-          },
-          "PREEXTBLLENGTH": {
-            "Tag": "D0282",
-            "Value": 0,
-            "Comment": "PREEXTBLLENGTH"
-          },
-          "LOG_BILLET_TEMPERATURE": {
-            "Tag": "D0313",
-            "Value": 0,
-            "Comment": "LOG BILLET TEMPERATURE."
-          },
-          "CONT_UPPER_TEMPERATURE": {
-            "Tag": "D0314",
-            "Value": 0,
-            "Comment": "CONT UPPER TEMPERATURE."
-          },
-          "CONTAINER_LOWER_TEMPERATURE": {
-            "Tag": "D0315",
-            "Value": 0,
-            "Comment": "CONTAINER LOWER TEMPERATURE."
-          },
-          "MAIN_PRESSURE": {
-            "Tag": "D0316",
-            "Value": 0,
-            "Comment": "MAIN PRESSURE"
-          },
-          "EXTRUDING_CYCLE_TIME": {
-            "Tag": "D0318",
-            "Value": 0,
-            "Comment": "EXTRUDING CYCLE TIME"
-          },
-          "IDLE_CYCLE_TIME": {
-            "Tag": "D0319",
-            "Value": 0,
-            "Comment": "IDLE CYCLE TIME"
-          },
-          "OIL_TEMPERATURE": {
-            "Tag": "D0320",
-            "Value": 0,
-            "Comment": "OIL TEMPERATURE."
+          "PULLER_POSITION_Cm": {
+            "Tag": "D20",
+            "Value": 1641,
+            "Comment": "PULLER POSITION (Cm)"
+          },
+          "CUTTING_POSITION": {
+            "Tag": "D230",
+            "Value": 919,
+            "Comment": "CUTTING POSITION"
+          },
+          "PRODUCT_LENGTH": {
+            "Tag": "R10",
+            "Value": 3000,
+            "Comment": "PRODUCT LENGTH"
+          },
+          "nd_ADVANCE_LENGTH2": {
+            "Tag": "D51",
+            "Value": 553,
+            "Comment": "2nd ADVANCE LENGTH"
+          },
+          "CUTTER_POSITION": {
+            "Tag": "D23",
+            "Value": 715,
+            "Comment": "CUTTER POSITION"
           },
           "PULLER_SPEED": {
-            "Tag": "D0321",
+            "Tag": "D144",
             "Value": 0,
             "Comment": "PULLER SPEED"
           },
-          "SLIDE_PUSH_SPEED": {
-            "Tag": "D0340",
-            "Value": 0,
-            "Comment": "SLIDE_PUSH_SPEED"
+          "PULLER_TORQUE": {
+            "Tag": "R53",
+            "Value": 60,
+            "Comment": "PULLER TORQUE"
           },
-          "MAIN_RET_END_SPEED": {
-            "Tag": "D0340",
-            "Value": 0,
-            "Comment": "MAIN_RET_END_SPEED"
+          "Fast_Forward": {
+            "Tag": "R50",
+            "Value": 30,
+            "Comment": "Fast Forward"
           },
-          "MAIN_STBY_FWD_SPEED": {
-            "Tag": "D0341",
-            "Value": 0,
-            "Comment": "MAIN_STBY_FWD_SPEED"
+          "Slow_Forward": {
+            "Tag": "R51",
+            "Value": 20,
+            "Comment": "Slow Forward"
           },
-          "MAIN_ST_BY_BWD_SPD": {
-            "Tag": "D0342",
-            "Value": 0,
-            "Comment": "MAIN_ST_BY_BWD_SPD"
+          "nd_Forward2": {
+            "Tag": "R52",
+            "Value": 30,
+            "Comment": "2nd Forward"
           },
-          "MAIN_BT_CLAMP_SPD": {
-            "Tag": "D0343",
-            "Value": 0,
-            "Comment": "MAIN_BT_CLAMP_SPD"
+          "Fast_Backward": {
+            "Tag": "R42",
+            "Value": 90,
+            "Comment": "Fast Backward"
           },
-          "CONT_1ST_FWD_SPD": {
-            "Tag": "D0344",
-            "Value": 0,
-            "Comment": "CONT_1ST_FWD_SPD"
+          "Medium_Backward": {
+            "Tag": "R44",
+            "Value": 30,
+            "Comment": "Medium Backward"
           },
-          "CONT_1ST_RET_SPEED": {
-            "Tag": "D0345",
-            "Value": 0,
-            "Comment": "CONT_1ST_RET_SPEED"
+          "Slow_Backward": {
+            "Tag": "R43",
+            "Value": 15,
+            "Comment": "Slow Backward"
           },
-          "CONT_RET_1ST_H": {
-            "Tag": "D0346",
-            "Value": 0,
-            "Comment": "CONT_RET_1ST_H"
+          "Lift_Up_Position": {
+            "Tag": "R21",
+            "Value": 100,
+            "Comment": "Lift Up Position"
           },
-          "CONT_SYBY_FWD_SPEED": {
-            "Tag": "D0350",
-            "Value": 0,
-            "Comment": "CONT_SYBY_FWD_SPEED"
+          "Run_Out_Send_Time": {
+            "Tag": "R15",
+            "Value": 50,
+            "Comment": "Run-Out Send Time"
           },
-          "CONT_STBY_BWD_SPD": {
-            "Tag": "D0351",
-            "Value": 0,
-            "Comment": "CONT_STBY_BWD_SPD"
+          "Run_Out_Roller_Speed": {
+            "Tag": "R88",
+            "Value": 20,
+            "Comment": "Run-Out Roller Speed"
           },
-          "CONT_BURP_RET_SPEED": {
-            "Tag": "D0353",
-            "Value": 0,
-            "Comment": "CONT_BURP_RET_SPEED"
+          "Forward_2nd_Leng": {
+            "Tag": "R11",
+            "Value": 630,
+            "Comment": "Forward 2nd Leng"
           },
-          "JOG_SPD": {
-            "Tag": "D0356",
-            "Value": 0,
-            "Comment": "JOG_SPD"
+          "Forward_2nd_Time": {
+            "Tag": "R12",
+            "Value": 650,
+            "Comment": "Forward 2nd Time"
           },
-          "BILLET_TEMPERATURE": {
-            "Tag": "D0365",
-            "Value": 0,
-            "Comment": "BILLET_TEMPERATURE"
+          "Cooling_C_V_Time": {
+            "Tag": "R16",
+            "Value": 10,
+            "Comment": "Cooling C/V Time"
           },
-          "PRODUCT1_TEMPERATURE": {
-            "Tag": "D0366",
-            "Value": 0,
-            "Comment": "PRODUCT1_TEMPERATURE"
+          "SAW_CLAMP_DOWN_DELAY": {
+            "Tag": "R17",
+            "Value": 5,
+            "Comment": "SAW CLAMP DOWN DELAY"
           },
-          "PRODUCT2_TEMPERATURE": {
-            "Tag": "D0367",
-            "Value": 0,
-            "Comment": "PRODUCT2_TEMPERATURE"
+          "SAW_CLAMP_RETURN_TIME": {
+            "Tag": "R18",
+            "Value": 20,
+            "Comment": "SAW CLAMP RETURN TIME"
           },
-          "Loader_Oil_Spray_Start_POS": {
-            "Tag": "D0380",
-            "Value": 0,
-            "Comment": "Loader Oil Spray Start POS"
+          "SAW_COOLANT_SUPPLY_TIME": {
+            "Tag": "R151",
+            "Value": 10,
+            "Comment": "SAW COOLANT SUPPLY TIME"
           },
-          "Loader_Oil_Spray_Stop_POS": {
-            "Tag": "D0381",
-            "Value": 0,
-            "Comment": "Loader Oil Spray Stop POS"
+          "INITIAL_CUTTER_ACTUAL_LOCATION": {
+            "Tag": "D23",
+            "Value": 715,
+            "Comment": "INITIAL CUTTER ACTUAL LOCATION"
           },
-          "PUMP_1_CMD_VALUE_DISP": {
-            "Tag": "D0530",
-            "Value": 0,
-            "Comment": "PUMP_1_CMD_VALUE_DISP"
-          },
-          "P1_SWIVEL_ANGLE_CMD": {
-            "Tag": "D0530",
-            "Value": 0,
-            "Comment": "P1_SWIVEL_ANGLE_CMD"
-          },
-          "PUMP_2_CMD_VALUE_DISP": {
-            "Tag": "D0531",
-            "Value": 0,
-            "Comment": "PUMP_2_CMD_VALUE_DISP"
-          },
-          "P2_SWIVEL_ANGLE_CMD": {
-            "Tag": "D0531",
-            "Value": 0,
-            "Comment": "P2_SWIVEL_ANGLE_CMD"
-          },
-          "PUMP_3_CMD_DISP": {
-            "Tag": "D0532",
-            "Value": 0,
-            "Comment": "PUMP_3_CMD_DISP"
-          },
-          "P3_SWIVEL_ANGLE_CMD": {
-            "Tag": "D0532",
-            "Value": 0,
-            "Comment": "P3_SWIVEL_ANGLE_CMD"
-          },
-          "LOADER_POSTION": {
-            "Tag": "D0573",
-            "Value": 0,
-            "Comment": "LOADER_POSTION"
-          },
-          "P3_RELIEF_CMD": {
-            "Tag": "D0630",
-            "Value": 0,
-            "Comment": "P3_RELIEF_CMD"
-          },
-          "CONTER007": {
-            "Tag": "R0007",
-            "Value": 0,
-            "Comment": "CONTER007"
-          },
-          "SEALING_PRESS_SET_VALUE": {
-            "Tag": "R0080",
-            "Value": 0,
-            "Comment": "SEALING_PRESS_SET_VALUE"
-          },
-          "SEALING_PRESS_SET": {
-            "Tag": "R0080",
-            "Value": 0,
-            "Comment": "SEALING_PRESS_SET"
-          },
-          "FEEDER_BILLET_CLOSE_POS": {
-            "Tag": "R0082",
-            "Value": 0,
-            "Comment": "FEEDER_BILLET_CLOSE_POS"
-          },
-          "FEEDER_HOLDER_IN_POS": {
-            "Tag": "R0083",
-            "Value": 0,
-            "Comment": "FEEDER_HOLDER_IN_POS"
+          "SET_INITIAL_LENGTH": {
+            "Tag": "D21",
+            "Value": 77,
+            "Comment": "SET INITIAL LENGTH"
           }
         }
       }
